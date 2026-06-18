@@ -2213,3 +2213,25 @@ select {
 .permission-banner strong {
     color: var(--ink);
 }
+
+.form-select-clean {
+    width: 100%;
+    height: 46px;
+    border: 1px solid var(--hairline);
+    border-radius: 10px;
+    background: #fff;
+    padding: 0 14px;
+    font-size: 14px;
+    color: var(--ink);
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.form-select-clean:focus {
+    border-color: var(--amber);
+    box-shadow: 0 0 0 3px rgba(217, 142, 4, 0.08);
+}
+
+.form-select-clean:hover {
+    border-color: #d8c7a3;
+}

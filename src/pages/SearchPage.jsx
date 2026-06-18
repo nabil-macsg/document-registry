@@ -177,11 +177,11 @@ export default function SearchPage({ docs = [], stats = {} }) {
               <span className="hero-stat-label">Documents</span>
             </div>
             <div className="hero-stat-sep" />
-            <div className="hero-stat">
+            {/* <div className="hero-stat">
               <span className="hero-stat-num">{computedStats.procedures}</span>
               <span className="hero-stat-label">Procedures</span>
-            </div>
-            <div className="hero-stat-sep" />
+            </div> */}
+            {/* <div className="hero-stat-sep" /> */}
             <div className="hero-stat">
               <span className="hero-stat-num">{computedStats.categories}</span>
               <span className="hero-stat-label">Categories</span>
@@ -311,23 +311,23 @@ export default function SearchPage({ docs = [], stats = {} }) {
             </div>
 
             <form className="filter-form" onSubmit={applyAdvancedSearch}>
-              <label className="filter-field">
+              {/* <label className="filter-field">
                 <span>Procedure No</span>
                 <input
                   placeholder="Example: GEN-HSSE-B-101"
                   value={filters.procedureNo}
                   onChange={(e) => updateFilter('procedureNo', e.target.value)}
                 />
-              </label>
+              </label> */}
 
-              <label className="filter-field">
+              {/* <label className="filter-field">
                 <span>Procedure Title</span>
                 <input
                   placeholder="Example: Access Control"
                   value={filters.procedureTitle}
                   onChange={(e) => updateFilter('procedureTitle', e.target.value)}
                 />
-              </label>
+              </label> */}
 
               <label className="filter-field">
                 <span>Category</span>

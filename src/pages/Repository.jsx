@@ -17,9 +17,9 @@ const emptyForm = {
   documentTitle: '',
   procedureNo: '',
   procedureTitle: '',
-  documentType: 'Document',
+  documentType: '',
   category: '',
-  owner: 'HSSE Mgr Gen',
+  owner: 'John',
   department: 'HSSE',
   documentUrl: '',
 };
@@ -59,6 +59,14 @@ export default function Repository({ docs = [], setDocs }) {
     () => docs.map(normalizeDoc).filter((d) => !d.isDeleted),
     [docs]
   );
+
+  const documentTypes = [
+    'Standard',
+    'Appendix',
+    'Form',
+    'Register',
+    'Checklist',
+  ];
 
   const categories = useMemo(
     () => ['All', ...new Set(normalizedDocs.map((d) => d.category).filter(Boolean))],
@@ -204,10 +212,10 @@ export default function Repository({ docs = [], setDocs }) {
               <strong>{stats.total}</strong>
               <span>Documents</span>
             </div>
-            <div>
+            {/* <div>
               <strong>{stats.procedures}</strong>
               <span>Procedures</span>
-            </div>
+            </div> */}
             <div>
               <strong>{stats.categories}</strong>
               <span>Categories</span>
@@ -339,7 +347,7 @@ export default function Repository({ docs = [], setDocs }) {
                 onChange={(v) => updateForm('documentTitle', v)}
                 required
               />
-              <Field
+              {/* <Field
                 label="Procedure No"
                 value={form.procedureNo}
                 onChange={(v) => updateForm('procedureNo', v)}
@@ -348,16 +356,17 @@ export default function Repository({ docs = [], setDocs }) {
                 label="Procedure Title"
                 value={form.procedureTitle}
                 onChange={(v) => updateForm('procedureTitle', v)}
-              />
+              /> */}
               <Field
                 label="Category"
                 value={form.category}
                 onChange={(v) => updateForm('category', v)}
               />
-              <Field
+              <SelectField
                 label="Document Type"
                 value={form.documentType}
                 onChange={(v) => updateForm('documentType', v)}
+                options={documentTypes}
               />
               <Field label="Owner" value={form.owner} onChange={(v) => updateForm('owner', v)} />
               <Field
@@ -465,6 +474,33 @@ function Field({ label, value, onChange, required }) {
     <label className="filter-field">
       <span>{label}</span>
       <input required={required} value={value} onChange={(e) => onChange(e.target.value)} />
+    </label>
+  );
+}
+
+function SelectField({
+  label,
+  value,
+  onChange,
+  options = [],
+  required,
+}) {
+  return (
+    <label className="filter-field">
+      <span>{label}</span>
+
+      <select
+        required={required}
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        className="form-select-clean"
+      >
+        {options.map((option) => (
+          <option key={option} value={option}>
+            {option}
+          </option>
+        ))}
+      </select>
     </label>
   );
 }
