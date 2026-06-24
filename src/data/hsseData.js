@@ -530,7 +530,7 @@ export const documents = [
     "procedureTitle": "Manual Handling and Ergonomics",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1IHaignQryVUwI4Wrp_HW56Rlwwte99Bz/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0042",
@@ -543,7 +543,7 @@ export const documents = [
     "procedureTitle": "Electrical Safety",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/10OunyDuNcwhwlz8mWWWwZHD6Rycwfezt/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0043",
@@ -556,7 +556,7 @@ export const documents = [
     "procedureTitle": "Safety Signage, Signals and Barricades",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1EYdh0CX8Onxb0x3su_mRqC06MxnIYOgg/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0044",
@@ -569,7 +569,7 @@ export const documents = [
     "procedureTitle": "Employer Supplied Accommodation — General Requirements",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/12SUtAYuPaaDR90JxQJfoOAGvcOxTncDE/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0045",
@@ -582,7 +582,7 @@ export const documents = [
     "procedureTitle": "Occupational Food Handling & Food Preparation Areas",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1bCWWFc44mF5wCxTJV01eF4ylm-wGK9Ye/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0046",
@@ -595,7 +595,7 @@ export const documents = [
     "procedureTitle": "Working at Height",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1XvHkcJUCuJxvQqqeBEKNboY5T4kmIsKt/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0047",
@@ -608,7 +608,7 @@ export const documents = [
     "procedureTitle": "Hot Work Operations",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1glmp0L1uKt0xHt_VxXu4b58V3SfkpfmX/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0048",
@@ -621,7 +621,7 @@ export const documents = [
     "procedureTitle": "Excavation Work",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1_bMXC_esIQg9a1AmgFl34afEH09vNVfs/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0049",
@@ -634,7 +634,7 @@ export const documents = [
     "procedureTitle": "Portable Power Tools",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1uOMOSJ-t6WU12LmPMXYDXNwEF_NmWcoL/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0050",
@@ -647,7 +647,7 @@ export const documents = [
     "procedureTitle": "Plant and Equipment",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/14eImOorY0VyRoVeOMz8pNgZQ9LBVOTTR/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0051",
@@ -660,7 +660,7 @@ export const documents = [
     "procedureTitle": "Overhead and Underground Services",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1bUzpxHS_1aicEypztMTo1yer0cZtxFoy/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0052",
@@ -673,7 +673,7 @@ export const documents = [
     "procedureTitle": "Machine Guarding",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1Qq418vqIP4At7QpNAn2WIax_VMWt7l8W/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0053",
@@ -686,7 +686,7 @@ export const documents = [
     "procedureTitle": "Local Exhaust Ventilation (LEV)",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1vTatjk79_p9q1P4HkPKG1bQi8b12J8ih/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0054",
@@ -699,7 +699,7 @@ export const documents = [
     "procedureTitle": "Waste Management",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1P4qjS5NQghOz2knLfwIiBGaL6WIL8eNd/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0055",
@@ -712,7 +712,7 @@ export const documents = [
     "procedureTitle": "Access to HV Compartments and Structures",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1HN00rRlAYOiGPgLSQGOda4bZKFRtmKJI/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0056",
@@ -725,7 +725,7 @@ export const documents = [
     "procedureTitle": "Addition & Removal of Plant and Apparatus from the System",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1Q94ABSzPL7ufCfeqpUmPM8-ynnUefgpj/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0057",
@@ -738,7 +738,7 @@ export const documents = [
     "procedureTitle": "Application of Safety Rules",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1u_oH1pGXsCbDvhWg0oyTFJbNVcf6Z4F4/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0058",
@@ -751,7 +751,7 @@ export const documents = [
     "procedureTitle": "Asbestos Control Procedure",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/18mfBRVCIIcdqbkAAfpRE-RGikD0TL6Gd/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0059",
@@ -764,7 +764,7 @@ export const documents = [
     "procedureTitle": "Automatic or Remote-Controlled Plant and Apparatus",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/15Vc5PMoD0WYhVrJlklxrzj1yYp11k5-9/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0060",
@@ -777,7 +777,7 @@ export const documents = [
     "procedureTitle": "HRSG Pressure Parts, Pressure Vessels and Pipe Work",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1PWpc8y64VlKfcmTL3CisJdX1hdU6r4j8/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0061",
@@ -790,7 +790,7 @@ export const documents = [
     "procedureTitle": "Brush Gear of Rotating High Voltage Machines",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1paIysd03H-eTQoY-LvnD2-pa7nJAeC0S/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0062",
@@ -803,7 +803,7 @@ export const documents = [
     "procedureTitle": "Cable Systems",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/198Eqro9oF-5mBMR4gdlmn59m5xLpP1TC/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0063",
@@ -816,7 +816,7 @@ export const documents = [
     "procedureTitle": "Cable Tunnels and Culverts",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1VAiIFew9ZbknFW2u8iAcz6Zjq0iLYzrJ/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0064",
@@ -829,7 +829,7 @@ export const documents = [
     "procedureTitle": "Cross Boundary Safety Precautions",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1CW1519nJItFy6pi1sxynoGpRudSw2CWM/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0065",
@@ -842,7 +842,7 @@ export const documents = [
     "procedureTitle": "Earthing High Voltage Apparatus",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1wUsq5C-qR4jgQBBrnbDr28sgHF5wo-w8/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0066",
@@ -855,7 +855,7 @@ export const documents = [
     "procedureTitle": "Equipment Containing SF6",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1dy1ODbrXe0cbhMA0EkJ_-agsxaAPVX5U/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0067",
@@ -868,7 +868,7 @@ export const documents = [
     "procedureTitle": "High Voltage Overhead Lines",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1S4BKssQq1HrH0-3Y2w5hzRVxKJlIWbN4/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0068",
@@ -881,7 +881,7 @@ export const documents = [
     "procedureTitle": "Gas Turbine and HRSG Gas Passes",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1VFHQ9TibioYMipYCGFfyR6Xd99M7YxaP/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0069",
@@ -894,7 +894,7 @@ export const documents = [
     "procedureTitle": "SRG 1 Approval of ROS GP4 & Similar Procedures",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1heuje_BPMDWOJ_HmcZdxmtz2at43D1og/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0070",
@@ -907,7 +907,7 @@ export const documents = [
     "procedureTitle": "SRG 2 Approval of Tools, Equipment and Processes",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1GmgaiPrFekxNWB7NrGAzxsYtJk7v4Rgy/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0071",
@@ -920,7 +920,7 @@ export const documents = [
     "procedureTitle": "SRG 3 Objections on Safety Grounds",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/13Ym2kL9uRf8D4dG7rGURiMEVNDkiKfX1/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0072",
@@ -933,7 +933,7 @@ export const documents = [
     "procedureTitle": "SRG 4 Guidance Notes for Acceptors",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1JE64D8u3P7-BRlPBQ3lV3C74fHFW3ipD/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0073",
@@ -946,7 +946,7 @@ export const documents = [
     "procedureTitle": "(GP4) Ignition Systems and Cathode Ray Tubes",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1b4WIHFS4GPgfyMPxptMiboHs2rP4xYuv/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0074",
@@ -959,7 +959,7 @@ export const documents = [
     "procedureTitle": "SRG 5 Guidance in the Management and Requirements of the Safety Rules",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1K86C6Y1vM6Pu69QthjDcbEcc5jVF_aFS/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0075",
@@ -972,7 +972,7 @@ export const documents = [
     "procedureTitle": "High Voltage Switching",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1gpt4wJoCvTvFJQTjiMTrleMyDxcc6Csl/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0076",
@@ -985,7 +985,7 @@ export const documents = [
     "procedureTitle": "HV Metalclad Switchgear with Spouts",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1tuJXuHapK0Suxy-cg9kMbDP6K9wQs729/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0077",
@@ -998,7 +998,7 @@ export const documents = [
     "procedureTitle": "Hydrogen Filled Machines",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1r43Tl8aE_TK4pJgDAnI5YxlRRMIi64Mn/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0078",
@@ -1011,7 +1011,7 @@ export const documents = [
     "procedureTitle": "Lost Keys, Safety Documents or Unplanned Absence of Acceptor",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1XMle8jlX7HyL7krBrh9uup8qX_JPDsUZ/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0079",
@@ -1024,7 +1024,7 @@ export const documents = [
     "procedureTitle": "Low Voltage Apparatus",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1LHWe64tzooVttvt8Ne2w2YNAlp2nJoGV/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0080",
@@ -1037,7 +1037,7 @@ export const documents = [
     "procedureTitle": "Management of Apparatus in Distress",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1gnmhC1lTvnQmQeK4zXLIMIUstNdhKOiP/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0081",
@@ -1050,7 +1050,7 @@ export const documents = [
     "procedureTitle": "Responsibilities of Persons",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1HOcJvGarWK3owAFUHoXN9o2ChsypM4Ap/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0082",
@@ -1063,7 +1063,7 @@ export const documents = [
     "procedureTitle": "Rotation of Gas Turbine Shaft",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/13SI9ewT8kxdmgKWO6srcParXJkKt1eLK/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0083",
@@ -1076,7 +1076,7 @@ export const documents = [
     "procedureTitle": "System Safety Rules",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1cEPXjNu66N5I8iOfUaqWpkxYHNjlJjHV/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0084",
@@ -1089,7 +1089,7 @@ export const documents = [
     "procedureTitle": "Testing High Voltage Apparatus",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1n8fYUXlpNuN4Z831vigKeHsNLO77ebuI/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0085",
