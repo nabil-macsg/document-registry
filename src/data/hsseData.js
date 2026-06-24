@@ -1102,7 +1102,7 @@ export const documents = [
     "procedureTitle": "Occupational Health and Safety Policy",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0086",
@@ -1115,7 +1115,7 @@ export const documents = [
     "procedureTitle": "Occupational Health and Safety Policy",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1y1OYGw8km7nYoQdYWVYTGCfd44TOph66/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0087",
@@ -1128,7 +1128,7 @@ export const documents = [
     "procedureTitle": "Access Control and Security",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1CkOdOAJsN3Dhb4AKKk34AhhU4nOEy24f/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0088",
@@ -1141,7 +1141,7 @@ export const documents = [
     "procedureTitle": "Access Control and Security",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1EwboPDqFhqxyk5fuOoBFdHzeHiUQniuV/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0089",
@@ -1154,7 +1154,7 @@ export const documents = [
     "procedureTitle": "Access Control and Security",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1qsTrCxRBoXZLboRueh5daYUS2Mq0P3X5/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0090",
@@ -1167,7 +1167,7 @@ export const documents = [
     "procedureTitle": "Access Control and Security",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1LpaDjq4K6TL5lHKJ6YkaWrgFTdpNz5OT/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0091",
@@ -1180,7 +1180,7 @@ export const documents = [
     "procedureTitle": "Access Control and Security",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1P7__8n3Fcz0AzkZK8Yarrc9Au1QN15Pp/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0092",
@@ -1193,7 +1193,7 @@ export const documents = [
     "procedureTitle": "Access Control and Security",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1Tj4y4qeKcqOkrYdIhSVcy60CSq5KL68f/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0093",
@@ -1206,7 +1206,7 @@ export const documents = [
     "procedureTitle": "Access Control and Security",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1FqIUCa1s0m34g4RQgIYmHCcM3D9tRQoc/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0094",
@@ -1219,7 +1219,7 @@ export const documents = [
     "procedureTitle": "Access Control and Security",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/spreadsheets/d/1CWfViAP3myCOIFfzFd2wGTW9C7cQp9vJ/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0095",
@@ -1232,7 +1232,7 @@ export const documents = [
     "procedureTitle": "Business Travel Safety Planning",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1wMYxw8mN15q-PNV3OxoFvdbnVMw7DnG2/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0096",
@@ -1245,7 +1245,7 @@ export const documents = [
     "procedureTitle": "Business Travel Safety Planning",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1QEz3ABhKXOoXbPX0qMl3nOzd5Mk6zvAX/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0097",
@@ -1258,7 +1258,7 @@ export const documents = [
     "procedureTitle": "Business Travel Safety Planning",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1vSiWTsbA1DDwC1_3yOGz32dNOM9ZKJ3t/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0098",
@@ -1271,7 +1271,7 @@ export const documents = [
     "procedureTitle": "Hazardous Materials Management & Chemical Safety Procedure",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1iImkctjzJN3QLA-Nc47om5YziNrysAgu/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0099",
@@ -1284,7 +1284,7 @@ export const documents = [
     "procedureTitle": "Hazardous Materials Management & Chemical Safety Procedure",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/spreadsheets/d/1D1bSQDRJJbw2eeiljHXuqq4yi76YihRv/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0100",
@@ -1297,7 +1297,7 @@ export const documents = [
     "procedureTitle": "Hazardous Materials Management & Chemical Safety Procedure",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1Ozkpe0tB0u5XydXXTdB0KCU3VEhyxXI2/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0101",
@@ -1310,7 +1310,7 @@ export const documents = [
     "procedureTitle": "Hazardous Materials Management & Chemical Safety Procedure",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1nFjAq9eV6rDYtWcXv7omYubMh9snYC2T/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0102",
@@ -1323,7 +1323,7 @@ export const documents = [
     "procedureTitle": "Hazardous Materials Management & Chemical Safety Procedure",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1qRK3o3N-L9YBeo2OQEg6-7oWhfAbfMGr/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0103",
@@ -1336,7 +1336,7 @@ export const documents = [
     "procedureTitle": "Domestic Electric Safety and Portable Appliances",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/spreadsheets/d/1v9vAV-ufqhBP_WLgKuMYqmm6dZjUDo5G/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0104",
@@ -1349,7 +1349,7 @@ export const documents = [
     "procedureTitle": "Domestic Electric Safety and Portable Appliances",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1EeAdfy2DdfTEHyGBS5nXZidIEd2jElTn/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0105",
@@ -1362,7 +1362,7 @@ export const documents = [
     "procedureTitle": "Domestic Electric Safety and Portable Appliances",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1kdo1OEO6RZc67YsJKdLBg9eNqghqXlTh/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0106",
@@ -1375,7 +1375,7 @@ export const documents = [
     "procedureTitle": "Gas Control Areas and Explosive Atmospheres",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1wIMiZuTk2q8uKNzs8HTQeNUDpkHI6jqC/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0107",
@@ -1388,7 +1388,7 @@ export const documents = [
     "procedureTitle": "Gas Control Areas and Explosive Atmospheres",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/11uUU9hFXLgwjqdRsNTYY_faGkTe6QFvX/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0108",
@@ -1401,7 +1401,7 @@ export const documents = [
     "procedureTitle": "Gas Control Areas and Explosive Atmospheres",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1ss1rAuVDYVVtZ-tGxXWRofuY_cCh65np/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0109",
@@ -1414,7 +1414,7 @@ export const documents = [
     "procedureTitle": "Gas Control Areas and Explosive Atmospheres",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1NONJQqTHWXtlxPXa3k7GtKBPTOPaMVxI/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0110",
@@ -1427,7 +1427,7 @@ export const documents = [
     "procedureTitle": "Gas Control Areas and Explosive Atmospheres",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/17a-Vr5QrIwasPBAsZ210p6b_kblKNLyr/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0111",
@@ -1440,7 +1440,7 @@ export const documents = [
     "procedureTitle": "First Aid and Cardiopulmonary Resuscitation (CPR)",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1WF26EjdXWRj6Yk1JlrzLY1fLipaBTSgS/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0112",
@@ -1453,7 +1453,7 @@ export const documents = [
     "procedureTitle": "First Aid and Cardiopulmonary Resuscitation (CPR)",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1opbILPpkXACqO8pzKJCD8M4wT7EtRrL9/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0113",
@@ -1466,7 +1466,7 @@ export const documents = [
     "procedureTitle": "General Confined Spaces",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1T_4-dX9Q50ClGkQ-iYGZGKtGItHFiE_N/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0114",
@@ -1479,7 +1479,7 @@ export const documents = [
     "procedureTitle": "General Confined Spaces",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1N6p0_X9mLZI7nT231imsefXtnlul6Rt7/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0115",
@@ -1492,7 +1492,7 @@ export const documents = [
     "procedureTitle": "General Confined Spaces",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1Zku9_uzPXTgg4e-A-afgUcFSwReRj2HM/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0116",
@@ -1505,7 +1505,7 @@ export const documents = [
     "procedureTitle": "General Confined Spaces",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1ltGTXBXlHnSP6rzs_m2_3jV41dDm3yFl/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0117",
@@ -1518,7 +1518,7 @@ export const documents = [
     "procedureTitle": "General Confined Spaces",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1135hkuWDknVkYyDBx3d-ioI6StvA6HkS/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0118",
@@ -1531,7 +1531,7 @@ export const documents = [
     "procedureTitle": "General Confined Spaces",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/17tFBD1l63LdhiUoNMlbp4kd3sjaZXR0k/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0119",
@@ -1544,7 +1544,7 @@ export const documents = [
     "procedureTitle": "General Confined Spaces",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/19mcCqAiw15XEf-RIVNcD-izA0UuU9XIk/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0120",
@@ -1557,7 +1557,7 @@ export const documents = [
     "procedureTitle": "General Confined Spaces",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1dj-KPsyr-Nms0TjCjgH_lwNIrICqG4Bc/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0121",
@@ -1570,7 +1570,7 @@ export const documents = [
     "procedureTitle": "General Confined Spaces",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1EF2a9FwfjtxWMQ6BOaE8j1IsfeYQytAI/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0122",
@@ -1583,7 +1583,7 @@ export const documents = [
     "procedureTitle": "General Confined Spaces",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1eAw1jYVMUr0CDmHHxz8up__CBoTYb0cL/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0123",
@@ -1596,7 +1596,7 @@ export const documents = [
     "procedureTitle": "HSE Communication and Consultation",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/13eTSYWX3NnFWfi4goe1FIB9RSUNiKm_S/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0124",
@@ -1609,7 +1609,7 @@ export const documents = [
     "procedureTitle": "HSE Communication and Consultation",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1qydQEh6oxHSRSjDdC9sko4q-5l9sRke4/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0125",
@@ -1622,7 +1622,7 @@ export const documents = [
     "procedureTitle": "HSE Communication and Consultation",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1PIw3AY2ht_TlALJC21D-RfwB3pdq2o8F/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0126",
@@ -1635,7 +1635,7 @@ export const documents = [
     "procedureTitle": "HSE Communication and Consultation",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1-bNScQRDNwIP4vwsX1pEuc5rmP6nfs0J/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0127",
@@ -1648,7 +1648,7 @@ export const documents = [
     "procedureTitle": "HSE Communication and Consultation",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1A98EfRSqz7_L5_0HBbbSjVuIutGdNU35/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0128",
@@ -1661,7 +1661,7 @@ export const documents = [
     "procedureTitle": "HSE Communication and Consultation",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1KSyJXO9AWakKI1qvLL62CuzoF2w16h8U/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0129",
@@ -1674,7 +1674,7 @@ export const documents = [
     "procedureTitle": "HSE Communication and Consultation",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/10ok7D-ajbSl4p7a21n62wuLmHHLERmXF/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0130",
@@ -1687,7 +1687,7 @@ export const documents = [
     "procedureTitle": "Managing Illness and Disease",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1prrHhHNpebfsiZm1k4HZ1g5cxmJm15JG/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0131",
@@ -1700,7 +1700,7 @@ export const documents = [
     "procedureTitle": "Managing Illness and Disease",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1t3w33x1hpG6py1aVSBKg9PLwWRJfCTxo/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0132",
@@ -1713,7 +1713,7 @@ export const documents = [
     "procedureTitle": "Managing Illness and Disease",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1pVvTB7bM6pUMcd3KiF7PNN8VJjvPUth5/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0133",
@@ -1726,7 +1726,7 @@ export const documents = [
     "procedureTitle": "Managing Illness and Disease",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1pHNGeB2J-VxiWXc_l4hq-92Q7aebRcxd/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0134",
@@ -1739,7 +1739,7 @@ export const documents = [
     "procedureTitle": "Managing Illness and Disease",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1sdEGyCorhaZZwKFQiUXEfIxdeQGXr2Ql/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0135",
@@ -1752,7 +1752,7 @@ export const documents = [
     "procedureTitle": "Managing Illness and Disease",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1AzO_9H-UmvLOvMuBDUz8gLZfOrOEyzg7/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0136",
@@ -1765,7 +1765,7 @@ export const documents = [
     "procedureTitle": "Managing Illness and Disease",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1u9WD8cOkhKYz_rnM_rHfjmVfFqfvzu4A/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0137",
@@ -1778,7 +1778,7 @@ export const documents = [
     "procedureTitle": "Motor Vehicle Safety",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1r4NXWVvP8eJSElAAbHknLTrS8FBw7jye/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0138",
@@ -1791,7 +1791,7 @@ export const documents = [
     "procedureTitle": "Nomination and Authorisation Procedure",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1rdoVqD0bjTLGWy4TEGwofBFWLsGsUNi1/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0139",
@@ -1804,7 +1804,7 @@ export const documents = [
     "procedureTitle": "Nomination and Authorisation Procedure",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1p17oeTSFojiPvRnrM6uWnMTJcdU6w_Ol/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0140",
@@ -1817,7 +1817,7 @@ export const documents = [
     "procedureTitle": "Nomination and Authorisation Procedure",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1EgTeQaDw-q7FXlJftRRh7Y-IC7FwAhLH/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0141",
@@ -1830,7 +1830,7 @@ export const documents = [
     "procedureTitle": "Nomination and Authorisation Procedure",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/144HSHCmeZMngVKODt1eToFVbuUVFwAeV/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0142",
@@ -1843,7 +1843,7 @@ export const documents = [
     "procedureTitle": "Nomination and Authorisation Procedure",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/14h-1LBwuRgv7iBCUMtK2MduwVRMSfvlL/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0143",
@@ -1856,7 +1856,7 @@ export const documents = [
     "procedureTitle": "",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1N0XAUaI5kf4HzyeXFXLBCFeFArDqxY01/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0144",
@@ -1869,7 +1869,7 @@ export const documents = [
     "procedureTitle": "Occupational Health and Safety Management Plan",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1Mhe6HOxG68tPL5w1uDY6bbpfYekF1Oeu/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0145",
@@ -1882,7 +1882,7 @@ export const documents = [
     "procedureTitle": "Prevention and Control of Legionella",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1fxwCm-gqba_Q-FYcCn0RAn4zCbV4dA3J/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0146",
@@ -1895,7 +1895,7 @@ export const documents = [
     "procedureTitle": "Prevention and Control of Legionella",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1hoyne489MvELNhoTIzUd7PIdi6nNtApz/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0147",
@@ -1908,7 +1908,7 @@ export const documents = [
     "procedureTitle": "Prevention and Control of Legionella",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1i1DdCfE6Ix3eaEC6oRHM0zlqD10uIkp1/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0148",
@@ -1921,7 +1921,7 @@ export const documents = [
     "procedureTitle": "Prevention and Control of Legionella",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1qrkRdyr_SJ5fTC7kUOgSljYUUUz4jNSX/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0149",
@@ -1934,7 +1934,7 @@ export const documents = [
     "procedureTitle": "Incident reporting and Investigation",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
-    "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=sharing&ouid=105839783576670671382&rtpof=true&sd=true"
+    "documentUrl": "https://docs.google.com/document/d/1MQY46cKk9r_UNUKlsjErs-0aG92Qr1Qm/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
     "id": "DOC-0150",
