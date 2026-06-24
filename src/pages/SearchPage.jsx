@@ -4,44 +4,20 @@ import {
   ExternalLink,
   Eye,
   FileText,
-  Hash,
   Search,
   SlidersHorizontal,
   X,
 } from 'lucide-react';
-
-const DEFAULT_DOCUMENT_URL = '';
-
-function CategorySwatch({ category }) {
-  const colors = ['#D98E04', '#3D6B8C', '#B5483D', '#7A5C9E', '#3F7A5C', '#5B6B82'];
-  let hash = 0;
-
-  for (let i = 0; i < String(category || '').length; i += 1) {
-    hash += String(category || '').charCodeAt(i);
-  }
-
-  return <span className="cat-dot" style={{ background: colors[hash % colors.length] }} />;
-}
 
 function normalizeDoc(d) {
   return {
     ...d,
     documentNo: d.documentNo || '',
     documentTitle: d.documentTitle || '',
-    procedureNo: d.procedureNo || '',
-    procedureTitle: d.procedureTitle || '',
-    category: d.category || 'Uncategorized',
-    documentType: d.documentType || d.type || 'Document',
-    department: d.department || 'HSSE',
-    owner: d.owner || 'HSSE Mgr Gen',
-    documentUrl:
-      d.documentUrl ||
-      d.fileUrl ||
-      d.filePath ||
-      d.path ||
-      d.url ||
-      d.link ||
-      DEFAULT_DOCUMENT_URL,
+    category: d.category || 'Procedure',
+    subCategory: d.subCategory || 'General',
+    documentType: d.documentType || 'Standard',
+    documentUrl: d.documentUrl || '',
   };
 }
 
@@ -51,9 +27,8 @@ export default function SearchPage({ docs = [], stats = {} }) {
   const [advancedOpen, setAdvancedOpen] = useState(false);
 
   const [filters, setFilters] = useState({
-    procedureNo: '',
-    procedureTitle: '',
     category: 'All',
+    subCategory: 'All',
     documentType: 'All',
   });
 
@@ -64,26 +39,26 @@ export default function SearchPage({ docs = [], stats = {} }) {
     [normalizedDocs]
   );
 
+  const subCategories = useMemo(
+    () => ['All', ...new Set(normalizedDocs.map((d) => d.subCategory).filter(Boolean))],
+    [normalizedDocs]
+  );
+
   const documentTypes = useMemo(
     () => ['All', ...new Set(normalizedDocs.map((d) => d.documentType).filter(Boolean))],
     [normalizedDocs]
   );
 
-  const hasCriteria = useMemo(() => {
-    return (
-      query.trim() ||
-      filters.procedureNo.trim() ||
-      filters.procedureTitle.trim() ||
-      filters.category !== 'All' ||
-      filters.documentType !== 'All'
-    );
-  }, [query, filters]);
+  const hasCriteria =
+    query.trim() ||
+    filters.category !== 'All' ||
+    filters.subCategory !== 'All' ||
+    filters.documentType !== 'All';
 
   const activeAdvancedCount = useMemo(() => {
     let count = 0;
-    if (filters.procedureNo.trim()) count += 1;
-    if (filters.procedureTitle.trim()) count += 1;
     if (filters.category !== 'All') count += 1;
+    if (filters.subCategory !== 'All') count += 1;
     if (filters.documentType !== 'All') count += 1;
     return count;
   }, [filters]);
@@ -92,59 +67,44 @@ export default function SearchPage({ docs = [], stats = {} }) {
     () => ({
       total: stats.total || normalizedDocs.length,
       categories: stats.categories || categories.length - 1,
-      procedures:
-        stats.procedures ||
-        new Set(normalizedDocs.map((d) => d.procedureNo).filter(Boolean)).size,
+      subCategories: subCategories.length - 1,
     }),
-    [stats, normalizedDocs, categories]
+    [stats, normalizedDocs, categories, subCategories]
   );
 
   const results = useMemo(() => {
     if (!searched || !hasCriteria) return [];
 
     const q = query.trim().toLowerCase();
-    const procedureNo = filters.procedureNo.trim().toLowerCase();
-    const procedureTitle = filters.procedureTitle.trim().toLowerCase();
 
     return normalizedDocs.filter((d) => {
-      const docNo = String(d.documentNo).toLowerCase();
-      const docTitle = String(d.documentTitle).toLowerCase();
-      const procNo = String(d.procedureNo).toLowerCase();
-      const procTitle = String(d.procedureTitle).toLowerCase();
-      const category = String(d.category).toLowerCase();
-      const documentType = String(d.documentType).toLowerCase();
+      const haystack = [
+        d.documentNo,
+        d.documentTitle,
+        d.category,
+        d.subCategory,
+        d.documentType,
+      ]
+        .join(' ')
+        .toLowerCase();
 
       return (
-        (!q || docNo.includes(q) || docTitle.includes(q)) &&
-        (!procedureNo || procNo.includes(procedureNo)) &&
-        (!procedureTitle || procTitle.includes(procedureTitle)) &&
-        (filters.category === 'All' || category === filters.category.toLowerCase()) &&
-        (filters.documentType === 'All' ||
-          documentType === filters.documentType.toLowerCase())
+        (!q || haystack.includes(q)) &&
+        (filters.category === 'All' || d.category === filters.category) &&
+        (filters.subCategory === 'All' || d.subCategory === filters.subCategory) &&
+        (filters.documentType === 'All' || d.documentType === filters.documentType)
       );
     });
   }, [normalizedDocs, query, filters, searched, hasCriteria]);
 
-  function runSearch(e) {
-    e.preventDefault();
-    setSearched(true);
-  }
-
   function clearSearch() {
     setQuery('');
     setFilters({
-      procedureNo: '',
-      procedureTitle: '',
       category: 'All',
+      subCategory: 'All',
       documentType: 'All',
     });
     setSearched(false);
-    setAdvancedOpen(false);
-  }
-
-  function applyAdvancedSearch(e) {
-    e.preventDefault();
-    setSearched(true);
     setAdvancedOpen(false);
   }
 
@@ -167,7 +127,7 @@ export default function SearchPage({ docs = [], stats = {} }) {
             <span className="hero-eyebrow">Document Registry · Lookup</span>
             <h1 className="hero-title">Find controlled documents faster.</h1>
             <p className="hero-sub">
-              Search by document number or title. Use advanced search for procedure, category, and type.
+              Search by document number, title, category, sub-category, or document type.
             </p>
           </div>
 
@@ -177,19 +137,25 @@ export default function SearchPage({ docs = [], stats = {} }) {
               <span className="hero-stat-label">Documents</span>
             </div>
             <div className="hero-stat-sep" />
-            {/* <div className="hero-stat">
-              <span className="hero-stat-num">{computedStats.procedures}</span>
-              <span className="hero-stat-label">Procedures</span>
-            </div> */}
-            {/* <div className="hero-stat-sep" /> */}
             <div className="hero-stat">
               <span className="hero-stat-num">{computedStats.categories}</span>
               <span className="hero-stat-label">Categories</span>
             </div>
+            <div className="hero-stat-sep" />
+            <div className="hero-stat">
+              <span className="hero-stat-num">{computedStats.subCategories}</span>
+              <span className="hero-stat-label">Sub Categories</span>
+            </div>
           </div>
         </div>
 
-        <form className="search-bar compact-search-bar" onSubmit={runSearch}>
+        <form
+          className="search-bar compact-search-bar"
+          onSubmit={(e) => {
+            e.preventDefault();
+            setSearched(true);
+          }}
+        >
           <Search size={17} className="search-icon" />
 
           <input
@@ -207,8 +173,7 @@ export default function SearchPage({ docs = [], stats = {} }) {
 
           <button
             type="button"
-            className={`advanced-search-btn ${activeAdvancedCount ? 'advanced-search-btn-active' : ''
-              }`}
+            className={`advanced-search-btn ${activeAdvancedCount ? 'advanced-search-btn-active' : ''}`}
             onClick={() => setAdvancedOpen(true)}
           >
             <SlidersHorizontal size={16} />
@@ -216,9 +181,7 @@ export default function SearchPage({ docs = [], stats = {} }) {
             {activeAdvancedCount > 0 && <strong>{activeAdvancedCount}</strong>}
           </button>
 
-          <button type="submit" className="search-submit">
-            Search
-          </button>
+          <button type="submit" className="search-submit">Search</button>
         </form>
       </header>
 
@@ -254,28 +217,33 @@ export default function SearchPage({ docs = [], stats = {} }) {
 
             <div className="results-list clean-results-list">
               {results.map((d, index) => (
-                <article key={`${d.documentNo}-${index}`} className="clean-doc-card">
+                <article key={`${d.documentNo}-${index}`} className="clean-doc-card search-doc-card">
                   <div className="clean-doc-main">
                     <div className="clean-doc-icon">
                       <FileText size={18} />
                     </div>
 
                     <div className="clean-doc-content">
-                      <div className="clean-doc-header">
+                      <div className="search-doc-title-row">
+                        <h3>{d.documentTitle}</h3>
+
+                        <span
+                          className={`category-pill search-category-pill ${d.category === 'Procedure'
+                              ? 'category-pill-procedure'
+                              : 'category-pill-form'
+                            }`}
+                        >
+                          {d.category}
+                        </span>
+                      </div>
+
+                      <div className="search-doc-tags-row">
                         <span className="doc-code">{d.documentNo}</span>
                         <span className="file-pill">{d.documentType}</span>
                       </div>
 
-                      <h3>{d.documentTitle}</h3>
-
-                      <div className="clean-doc-meta">
-                        <span><Hash size={12} /> {d.procedureNo}</span>
-                        <span>{d.procedureTitle}</span>
-                      </div>
-
                       <div className="clean-doc-category">
-                        <CategorySwatch category={d.category} />
-                        {d.category}
+                        {d.subCategory}
                       </div>
                     </div>
                   </div>
@@ -310,38 +278,17 @@ export default function SearchPage({ docs = [], stats = {} }) {
               </button>
             </div>
 
-            <form className="filter-form" onSubmit={applyAdvancedSearch}>
-              {/* <label className="filter-field">
-                <span>Procedure No</span>
-                <input
-                  placeholder="Example: GEN-HSSE-B-101"
-                  value={filters.procedureNo}
-                  onChange={(e) => updateFilter('procedureNo', e.target.value)}
-                />
-              </label> */}
-
-              {/* <label className="filter-field">
-                <span>Procedure Title</span>
-                <input
-                  placeholder="Example: Access Control"
-                  value={filters.procedureTitle}
-                  onChange={(e) => updateFilter('procedureTitle', e.target.value)}
-                />
-              </label> */}
-
-              <label className="filter-field">
-                <span>Category</span>
-                <select value={filters.category} onChange={(e) => updateFilter('category', e.target.value)}>
-                  {categories.map((c) => <option key={c}>{c}</option>)}
-                </select>
-              </label>
-
-              <label className="filter-field">
-                <span>Document Type</span>
-                <select value={filters.documentType} onChange={(e) => updateFilter('documentType', e.target.value)}>
-                  {documentTypes.map((t) => <option key={t}>{t}</option>)}
-                </select>
-              </label>
+            <form
+              className="filter-form"
+              onSubmit={(e) => {
+                e.preventDefault();
+                setSearched(true);
+                setAdvancedOpen(false);
+              }}
+            >
+              <SelectField label="Category" value={filters.category} options={categories} onChange={(v) => updateFilter('category', v)} />
+              <SelectField label="Sub Category" value={filters.subCategory} options={subCategories} onChange={(v) => updateFilter('subCategory', v)} />
+              <SelectField label="Document Type" value={filters.documentType} options={documentTypes} onChange={(v) => updateFilter('documentType', v)} />
 
               <div className="filter-actions">
                 <button type="button" className="filter-reset-btn" onClick={clearSearch}>
@@ -356,5 +303,18 @@ export default function SearchPage({ docs = [], stats = {} }) {
         </div>
       )}
     </div>
+  );
+}
+
+function SelectField({ label, value, options, onChange }) {
+  return (
+    <label className="filter-field">
+      <span>{label}</span>
+      <select value={value} onChange={(e) => onChange(e.target.value)}>
+        {options.map((option) => (
+          <option key={option}>{option}</option>
+        ))}
+      </select>
+    </label>
   );
 }

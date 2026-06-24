@@ -2235,3 +2235,192 @@ select {
 .form-select-clean:hover {
     border-color: #d8c7a3;
 }
+
+.repo-pill-filters {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: -4px 0 16px;
+}
+
+.repo-pill-filter {
+    border: 1px solid var(--hairline);
+    background: #fff;
+    color: var(--slate);
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-size: 12.5px;
+    font-weight: 700;
+}
+
+.repo-pill-filter:hover {
+    border-color: var(--amber-soft);
+    color: var(--amber);
+    background: #fbf3e1;
+}
+
+.repo-pill-filter-active {
+    border-color: var(--amber-soft);
+    background: #fbf3e1;
+    color: var(--amber);
+}
+
+.repo-doc-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+}
+
+.repo-doc-tags {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.category-pill {
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.category-pill-procedure {
+    background: #eef5ff;
+    color: #1d4ed8;
+    border: 1px solid #bfdbfe;
+}
+
+.category-pill-form {
+    background: #fba7a9;
+    color: #e11515;
+    border: 1px solid #ffa8ab;
+}
+
+.category-pill {
+    margin-left: auto;
+    flex-shrink: 0;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+}
+
+.clean-doc-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+}
+
+.clean-doc-left-tags {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-category-pill {
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.search-doc-card {
+    align-items: center;
+    min-height: 104px;
+}
+
+.search-doc-title-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 18px;
+    width: 100%;
+}
+
+.search-doc-title-row h3 {
+    margin: 0;
+    font-size: 15.5px;
+    color: var(--ink);
+    line-height: 1.35;
+}
+
+.search-doc-tags-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 7px 0 8px;
+}
+
+.search-category-pill {
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.clean-doc-content {
+    width: 100%;
+}
+
+.clean-repo-listing {
+    gap: 10px;
+}
+
+.repo-doc-row-polished {
+    min-height: 112px;
+    padding: 18px 20px;
+}
+
+.repo-doc-subcategory-line {
+    margin-top: 7px;
+    font-weight: 700;
+    color: var(--slate);
+}
+
+.mock-upload-box {
+    border: 1.5px dashed #d5cfc2;
+    background: #fbfaf6;
+    border-radius: 14px;
+    padding: 18px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    gap: 6px;
+    color: var(--slate);
+    cursor: pointer;
+}
+
+.mock-upload-box input {
+    display: none;
+}
+
+.mock-upload-box svg {
+    color: var(--amber);
+}
+
+.mock-upload-box strong {
+    font-size: 13.5px;
+    color: var(--ink);
+}
+
+.mock-upload-box small {
+    font-size: 12px;
+    color: var(--text-dim);
+}
+
+.mock-upload-box:hover,
+.mock-upload-box-active {
+    border-color: var(--amber);
+    background: #fff8e8;
+}
+
+.remove-upload-btn {
+    border: 0;
+    background: transparent;
+    color: var(--red);
+    font-size: 12.5px;
+    font-weight: 700;
+    padding: 0;
+    align-self: flex-start;
+}

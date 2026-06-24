@@ -8,34 +8,53 @@ import {
   Search,
   Tag,
   Trash2,
+  UploadCloud,
   X,
 } from 'lucide-react';
 import { AccessContext } from '../components/Layout.jsx';
 
+const standardDocumentTypes = ['Standard'];
+const formDocumentTypes = ['Appendix', 'Form', 'Register', 'Checklist'];
+const categoryTypes = ['Procedure', 'Form'];
+const pillFilters = ['All', 'Procedure', 'Form'];
+
 const emptyForm = {
   documentNo: '',
   documentTitle: '',
-  procedureNo: '',
-  procedureTitle: '',
-  documentType: '',
-  category: '',
+  documentType: 'Standard',
+  category: 'Procedure',
+  subCategory: '',
   owner: 'John',
   department: 'HSSE',
   documentUrl: '',
+  fileName: '',
 };
 
+function getDocumentTypeOptions(category) {
+  return category === 'Procedure' ? standardDocumentTypes : formDocumentTypes;
+}
+
+function getDocumentCategory(d) {
+  if (d.category === 'Procedure' || d.category === 'Form') return d.category;
+  return d.documentType === 'Standard' ? 'Procedure' : 'Form';
+}
+
 function normalizeDoc(d) {
+  const documentType = d.documentType || 'Standard';
+  const category = getDocumentCategory({ ...d, documentType });
+  const validTypes = getDocumentTypeOptions(category);
+
   return {
     ...d,
     documentNo: d.documentNo || '',
     documentTitle: d.documentTitle || '',
-    procedureNo: d.procedureNo || '',
-    procedureTitle: d.procedureTitle || '',
-    category: d.category || 'Uncategorized',
-    documentType: d.documentType || d.type || 'Document',
+    documentType: validTypes.includes(documentType) ? documentType : validTypes[0],
+    category,
+    subCategory: d.subCategory || 'General',
     owner: d.owner || 'HSSE Mgr Gen',
     department: d.department || 'HSSE',
     documentUrl: d.documentUrl || d.url || d.link || '',
+    fileName: d.fileName || '',
     isDeleted: d.isDeleted || false,
   };
 }
@@ -60,17 +79,14 @@ export default function Repository({ docs = [], setDocs }) {
     [docs]
   );
 
-  const documentTypes = [
-    'Standard',
-    'Appendix',
-    'Form',
-    'Register',
-    'Checklist',
-  ];
-
-  const categories = useMemo(
-    () => ['All', ...new Set(normalizedDocs.map((d) => d.category).filter(Boolean))],
+  const subCategories = useMemo(
+    () => [...new Set(normalizedDocs.map((d) => d.subCategory).filter(Boolean))].sort(),
     [normalizedDocs]
+  );
+
+  const subCategoryOptions = useMemo(
+    () => ['Select sub category', ...subCategories],
+    [subCategories]
   );
 
   const rows = useMemo(() => {
@@ -80,9 +96,8 @@ export default function Repository({ docs = [], setDocs }) {
       const haystack = [
         d.documentNo,
         d.documentTitle,
-        d.procedureNo,
-        d.procedureTitle,
         d.category,
+        d.subCategory,
         d.owner,
         d.department,
         d.documentType,
@@ -97,11 +112,11 @@ export default function Repository({ docs = [], setDocs }) {
   const stats = useMemo(
     () => ({
       total: normalizedDocs.length,
-      procedures: new Set(normalizedDocs.map((d) => d.procedureNo).filter(Boolean)).size,
-      categories: categories.length - 1,
+      procedures: normalizedDocs.filter((d) => d.category === 'Procedure').length,
+      forms: normalizedDocs.filter((d) => d.category === 'Form').length,
       types: new Set(normalizedDocs.map((d) => d.documentType).filter(Boolean)).size,
     }),
-    [normalizedDocs, categories]
+    [normalizedDocs]
   );
 
   function showToast(message) {
@@ -126,13 +141,53 @@ export default function Repository({ docs = [], setDocs }) {
       return;
     }
 
+    const nextCategory = getDocumentCategory(doc);
+    const nextTypes = getDocumentTypeOptions(nextCategory);
+    const nextDocumentType = nextTypes.includes(doc.documentType)
+      ? doc.documentType
+      : nextTypes[0];
+
     setMode('edit');
-    setForm(doc);
+    setForm({
+      ...doc,
+      category: nextCategory,
+      documentType: nextDocumentType,
+    });
     setPaneOpen(true);
   }
 
   function updateForm(key, value) {
-    setForm((prev) => ({ ...prev, [key]: value }));
+    setForm((prev) => {
+      if (key === 'category') {
+        const nextTypes = getDocumentTypeOptions(value);
+        return {
+          ...prev,
+          category: value,
+          documentType: nextTypes[0],
+        };
+      }
+
+      return { ...prev, [key]: value };
+    });
+  }
+
+  function handleFileUpload(e) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    setForm((prev) => ({
+      ...prev,
+      fileName: file.name,
+      documentUrl: URL.createObjectURL(file),
+    }));
+  }
+
+  function removeFile() {
+    setForm((prev) => ({
+      ...prev,
+      fileName: '',
+      documentUrl: '',
+    }));
   }
 
   function submitForm(e) {
@@ -143,17 +198,20 @@ export default function Repository({ docs = [], setDocs }) {
       return;
     }
 
-    if (mode === 'add') {
-      const newDoc = {
-        ...form,
-        id: `DOC-${Date.now()}`,
-      };
+    const finalDoc = {
+      ...form,
+      subCategory: form.subCategory || 'General',
+      documentType: getDocumentTypeOptions(form.category).includes(form.documentType)
+        ? form.documentType
+        : getDocumentTypeOptions(form.category)[0],
+    };
 
-      setDocs((prev) => [newDoc, ...prev]);
+    if (mode === 'add') {
+      setDocs((prev) => [{ ...finalDoc, id: `DOC-${Date.now()}` }, ...prev]);
       showToast('Document added');
     } else {
       setDocs((prev) =>
-        prev.map((d) => (d.documentNo === form.documentNo ? { ...d, ...form } : d))
+        prev.map((d) => (d.documentNo === form.documentNo ? { ...d, ...finalDoc } : d))
       );
       showToast('Document updated');
     }
@@ -208,22 +266,10 @@ export default function Repository({ docs = [], setDocs }) {
 
         <div className="repo-header-actions">
           <div className="repo-summary-strip">
-            <div>
-              <strong>{stats.total}</strong>
-              <span>Documents</span>
-            </div>
-            {/* <div>
-              <strong>{stats.procedures}</strong>
-              <span>Procedures</span>
-            </div> */}
-            <div>
-              <strong>{stats.categories}</strong>
-              <span>Categories</span>
-            </div>
-            <div>
-              <strong>{stats.types}</strong>
-              <span>Types</span>
-            </div>
+            <div><strong>{stats.total}</strong><span>Documents</span></div>
+            <div><strong>{stats.procedures}</strong><span>Procedures</span></div>
+            <div><strong>{stats.forms}</strong><span>Forms</span></div>
+            <div><strong>{stats.types}</strong><span>Types</span></div>
           </div>
 
           {canManage && (
@@ -246,7 +292,7 @@ export default function Repository({ docs = [], setDocs }) {
         <label className="toolbar-search">
           <Search size={16} />
           <input
-            placeholder="Search document no, title, procedure, owner..."
+            placeholder="Search document no, title, sub category, owner..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
@@ -255,7 +301,7 @@ export default function Repository({ docs = [], setDocs }) {
         <label className="toolbar-select">
           <Tag size={15} />
           <select value={category} onChange={(e) => setCategory(e.target.value)}>
-            {categories.map((c) => (
+            {pillFilters.map((c) => (
               <option key={c}>{c}</option>
             ))}
           </select>
@@ -266,30 +312,48 @@ export default function Repository({ docs = [], setDocs }) {
         </span>
       </section>
 
-      <div className="repo-table-wide">
+      <div className="repo-pill-filters">
+        {pillFilters.map((filter) => (
+          <button
+            key={filter}
+            type="button"
+            className={`repo-pill-filter ${category === filter ? 'repo-pill-filter-active' : ''}`}
+            onClick={() => setCategory(filter)}
+          >
+            {filter === 'All' ? 'All' : filter === 'Procedure' ? 'Procedure' : 'Forms'}
+          </button>
+        ))}
+      </div>
+
+      <div className="repo-table-wide clean-repo-listing">
         {rows.map((d, index) => (
-          <article className="repo-doc-row-clean" key={`${d.documentNo}-${index}`}>
+          <article className="repo-doc-row-clean repo-doc-row-polished" key={`${d.documentNo}-${index}`}>
             <div className="repo-doc-icon">
               <FileText size={18} />
             </div>
 
             <div className="repo-doc-main">
               <div className="repo-doc-top">
-                <span className="doc-code">{d.documentNo}</span>
-                <span className="file-pill">{d.documentType}</span>
+                <div className="repo-doc-tags">
+                  <span className="doc-code">{d.documentNo}</span>
+                  <span className="file-pill">{d.documentType}</span>
+                </div>
+
+                <span
+                  className={`category-pill ${d.category === 'Procedure' ? 'category-pill-procedure' : 'category-pill-form'
+                    }`}
+                >
+                  {d.category}
+                </span>
               </div>
 
               <h3>{d.documentTitle}</h3>
 
-              <div className="repo-doc-meta">
-                <span>{d.procedureNo}</span>
-                <span>·</span>
-                <span>{d.procedureTitle}</span>
+              <div className="repo-doc-meta repo-doc-subcategory-line">
+                <span>{d.subCategory}</span>
               </div>
 
               <div className="repo-doc-submeta">
-                <span>{d.category}</span>
-                <span>·</span>
                 <span>{d.owner}</span>
                 <span>·</span>
                 <span>{d.department}</span>
@@ -335,57 +399,44 @@ export default function Repository({ docs = [], setDocs }) {
             </div>
 
             <form className="filter-form" onSubmit={submitForm}>
-              <Field
-                label="Document No"
-                value={form.documentNo}
-                onChange={(v) => updateForm('documentNo', v)}
-                required
-              />
-              <Field
-                label="Document Title"
-                value={form.documentTitle}
-                onChange={(v) => updateForm('documentTitle', v)}
-                required
-              />
-              {/* <Field
-                label="Procedure No"
-                value={form.procedureNo}
-                onChange={(v) => updateForm('procedureNo', v)}
-              />
-              <Field
-                label="Procedure Title"
-                value={form.procedureTitle}
-                onChange={(v) => updateForm('procedureTitle', v)}
-              /> */}
-              <Field
+              <Field label="Document No" value={form.documentNo} onChange={(v) => updateForm('documentNo', v)} required />
+              <Field label="Document Title" value={form.documentTitle} onChange={(v) => updateForm('documentTitle', v)} required />
+
+              <SelectField
                 label="Category"
                 value={form.category}
                 onChange={(v) => updateForm('category', v)}
+                options={categoryTypes}
+                required
               />
+
+              <SelectField
+                label="Sub Category"
+                value={form.subCategory || 'Select sub category'}
+                onChange={(v) => updateForm('subCategory', v === 'Select sub category' ? '' : v)}
+                options={subCategoryOptions}
+              />
+
               <SelectField
                 label="Document Type"
                 value={form.documentType}
                 onChange={(v) => updateForm('documentType', v)}
-                options={documentTypes}
+                options={getDocumentTypeOptions(form.category)}
+                required
               />
+
               <Field label="Owner" value={form.owner} onChange={(v) => updateForm('owner', v)} />
-              <Field
-                label="Department"
-                value={form.department}
-                onChange={(v) => updateForm('department', v)}
-              />
-              <Field
-                label="Document URL"
-                value={form.documentUrl}
-                onChange={(v) => updateForm('documentUrl', v)}
+              <Field label="Department" value={form.department} onChange={(v) => updateForm('department', v)} />
+
+              <FileUploadField
+                fileName={form.fileName}
+                hasFile={Boolean(form.documentUrl)}
+                onUpload={handleFileUpload}
+                onRemove={removeFile}
               />
 
               <div className="filter-actions">
-                <button
-                  type="button"
-                  className="filter-reset-btn"
-                  onClick={() => setPaneOpen(false)}
-                >
+                <button type="button" className="filter-reset-btn" onClick={() => setPaneOpen(false)}>
                   Cancel
                 </button>
                 <button type="submit" className="filter-apply-btn">
@@ -412,11 +463,11 @@ export default function Repository({ docs = [], setDocs }) {
 
             <div className="repo-detail-grid">
               <Detail label="Document No" value={selectedDoc.documentNo} />
-              <Detail label="Document Type" value={selectedDoc.documentType} />
-              <Detail label="Procedure No" value={selectedDoc.procedureNo} />
-              <Detail label="Procedure Title" value={selectedDoc.procedureTitle} />
               <Detail label="Category" value={selectedDoc.category} />
+              <Detail label="Sub Category" value={selectedDoc.subCategory} />
+              <Detail label="Document Type" value={selectedDoc.documentType} />
               <Detail label="Owner" value={selectedDoc.owner} />
+              <Detail label="Department" value={selectedDoc.department} />
             </div>
 
             <div className="repo-modal-actions">
@@ -478,17 +529,10 @@ function Field({ label, value, onChange, required }) {
   );
 }
 
-function SelectField({
-  label,
-  value,
-  onChange,
-  options = [],
-  required,
-}) {
+function SelectField({ label, value, onChange, options = [], required }) {
   return (
     <label className="filter-field">
       <span>{label}</span>
-
       <select
         required={required}
         value={value}
@@ -497,11 +541,32 @@ function SelectField({
       >
         {options.map((option) => (
           <option key={option} value={option}>
-            {option}
+            {option === 'Form' && label === 'Category' ? 'Forms' : option}
           </option>
         ))}
       </select>
     </label>
+  );
+}
+
+function FileUploadField({ fileName, hasFile, onUpload, onRemove }) {
+  return (
+    <div className="filter-field">
+      <span>Upload File</span>
+
+      <label className={`mock-upload-box ${hasFile ? 'mock-upload-box-active' : ''}`}>
+        <input type="file" onChange={onUpload} />
+        <UploadCloud size={22} />
+        <strong>{fileName || 'Choose document file'}</strong>
+        <small>{fileName ? 'File selected for this mockup' : 'PDF, DOCX, XLSX or image file'}</small>
+      </label>
+
+      {hasFile && (
+        <button type="button" className="remove-upload-btn" onClick={onRemove}>
+          Remove selected file
+        </button>
+      )}
+    </div>
   );
 }
 
