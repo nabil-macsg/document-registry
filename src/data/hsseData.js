@@ -1170,6 +1170,19 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1HOaXpYfdZZgbAe112DNHx9zHOZLTb-SB/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
+    "id": "LGL-0010",
+    "documentNo": "GEN-LGL-B-001",
+    "documentTitle": "General Legal and Compliance Register",
+    "category": "Form",
+    "subCategory": "Legal and Compliance Register",
+    "documentType": "Appendix",
+    "procedureNo": "GEN-LGL-B-001",
+    "procedureTitle": "General Legal and Compliance Register",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/spreadsheets/d/1q02ztin25kKk5PnttEG23vrJbnlLBQY_/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
     "id": "DOC-0090",
     "documentNo": "GEN-HSSE-B-001-APP1",
     "documentTitle": "OH&S Policy (Display)",
