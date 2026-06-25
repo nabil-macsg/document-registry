@@ -1115,7 +1115,7 @@ export const documents = [
         "procedureTitle": "General Workplace Amenities",
         "owner": "HSSE Mgr Gen",
         "department": "Gen HSSE",
-        "documentUrl": "https://docs.google.com/document/d/1iTeir5CKEOl6gP6kec778xWnpyIfdMgV/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+        "documentUrl": "https://docs.google.com/document/d/1y6twkdG4W63An0PjPvCyDd3LuNr_DwY_/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
     },
     {
         "id": "DOC-0086",
@@ -1128,7 +1128,7 @@ export const documents = [
         "procedureTitle": "Temporary Employer Supplied Accommodation",
         "owner": "HSSE Mgr Gen",
         "department": "Gen HSSE",
-        "documentUrl": "https://docs.google.com/document/d/1xBkXZ9_eWgNTkzv3TP2-PGMgKZaM07or/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+        "documentUrl": "https://docs.google.com/document/d/1yAZmPIouMf_svvoS02aNK85jlNoYhjPf/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
     },
     {
         "id": "DOC-0087",
@@ -1141,7 +1141,7 @@ export const documents = [
         "procedureTitle": "Permit to Work Systems For General Works",
         "owner": "HSSE Mgr Gen",
         "department": "Gen HSSE",
-        "documentUrl": "https://docs.google.com/document/d/1GhbghZPCeG7_4attgqUjh1lH6FyE82as/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+        "documentUrl": "https://docs.google.com/document/d/1Ia5VidRd-pzrwwhGvkYwA_XdQ1qBrjcI/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
     },
     {
         "id": "DOC-0088",
@@ -1154,7 +1154,7 @@ export const documents = [
         "procedureTitle": "Lock out - Tag out (Isolation)",
         "owner": "HSSE Mgr Gen",
         "department": "Gen HSSE",
-        "documentUrl": "https://docs.google.com/document/d/1VxCQTGzPYsvnowUGMKAxQ0O2ayJ_uH4Q/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+        "documentUrl": "https://docs.google.com/document/d/1KGn7ufEHXUmkZu0jv2gOdvaonhq244XE/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
     },
     {
         "id": "DOC-0089",
@@ -1167,7 +1167,7 @@ export const documents = [
         "procedureTitle": "Underwater Activities",
         "owner": "HSSE Mgr Gen",
         "department": "Gen HSSE",
-        "documentUrl": "https://docs.google.com/document/d/1HOaXpYfdZZgbAe112DNHx9zHOZLTb-SB/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+        "documentUrl": "https://docs.google.com/document/d/1rB6u188fBL79894SkvXnBMcZSMNvHIld/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
     },
     {
         "id": "LGL-0010",
