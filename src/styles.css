@@ -1445,7 +1445,7 @@ select {
 .filter-apply-btn {
     border: 0;
     background: var(--amber);
-    color: #1b1304;
+    color: #ffffff;
 }
 
 .clean-results-list,
