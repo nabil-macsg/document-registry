@@ -1,7 +1,7 @@
 export const documents = [
   {
     "id": "DOC-0000",
-    "documentNo": "GEN-HSSE-B-000",
+    "documentNo": "GEN-HSSE-B-010",
     "documentTitle": "Legal and Compliance Register and Explanatory Note",
     "category": "Procedure",
     "subCategory": "Legal and Compliance Register",
@@ -1171,12 +1171,12 @@ export const documents = [
   },
   {
     "id": "LGL-0010",
-    "documentNo": "GEN-LGL-B-001",
+    "documentNo": "GEN-HSSE-B-010-E01",
     "documentTitle": "General Legal and Compliance Register",
     "category": "Form",
     "subCategory": "Legal and Compliance Register",
-    "documentType": "Appendix",
-    "procedureNo": "GEN-LGL-B-001",
+    "documentType": "Register",
+    "procedureNo": "GEN-HSSE-B-010-E01",
     "procedureTitle": "General Legal and Compliance Register",
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
