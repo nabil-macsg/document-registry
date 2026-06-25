@@ -8,6 +8,8 @@ import {
   Settings,
   UserRound,
 } from 'lucide-react';
+import taqaLogo from '../assets/taqa_logo.png';
+import macsgLogo from '../assets/macsg_logo.png';
 
 export const AccessContext = createContext({
   role: 'Admin',
@@ -109,13 +111,27 @@ export default function Layout({ activePage, setActivePage, children }) {
       <div className="app-shell">
         <header className="topbar compact-topbar">
           <div className="topbar-brand">
-            <div className="brand-mark">
-              <span className="brand-mark-inner">DR</span>
+            <div className="logo-panel">
+              <img
+                src={macsgLogo}
+                alt="Macsg Logo"
+                className="brand-logo"
+                width={110}
+              />
+
+              <div className="logo-divider" />
+
+              <img
+                src={taqaLogo}
+                alt="Taqa Logo"
+                className="brand-logo"
+                width={110}
+              />
             </div>
 
             <div className="brand-text">
-              <span className="brand-title">Ledger</span>
-              <span className="brand-sub">Document Registry</span>
+              <span className="brand-title">HSSE O&M</span>
+              <span className="brand-sub">Document Register</span>
             </div>
           </div>
 

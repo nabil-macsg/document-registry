@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 :root {
-    --ink: #0B1320;
+    --ink: #0ab3a1;
     --ink-soft: #131D30;
     --paper: #F7F6F2;
     --paper-dim: #EFEDE6;
     --hairline: #E2DFD6;
     --slate: #3D4A5C;
     --slate-soft: #5B6B82;
-    --amber: #D98E04;
+    --amber: #15048a;
     --amber-soft: #F4E3BF;
     --green: #3F7A5C;
     --red: #B5483D;
@@ -65,7 +65,8 @@ select {
     display: flex;
     align-items: center;
     gap: 14px;
-    flex-shrink: 0
+    flex-shrink: 0;
+    margin-right: 1em;
 }
 
 .brand-mark {
@@ -93,6 +94,30 @@ select {
     line-height: 1.15
 }
 
+.logo-panel {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    background: #ffffff;
+    padding: 8px 14px;
+    border-radius: 12px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-right: 5px;
+}
+
+.logo-panel .brand-logo {
+    display: block;
+    object-fit: contain;
+}
+
+.logo-divider {
+    width: 1px;
+    height: 42px;
+    background: #d9d9d9;
+}
+
 .brand-title {
     font-family: var(--font-display);
     font-weight: 700;
@@ -103,7 +128,7 @@ select {
 
 .brand-sub {
     font-size: 13.5px;
-    color: #8A97AC;
+    color: #000000;
     letter-spacing: .4px;
     margin-top: 4px
 }
@@ -122,7 +147,7 @@ select {
     gap: 13px;
     background: transparent;
     border: none;
-    color: #AEB9C9;
+    color: #ffffff;
     padding: 16px 18px;
     border-radius: 10px;
     font-size: 18px;
@@ -140,7 +165,7 @@ select {
 
 .top-nav-item-active {
     background: rgba(217, 142, 4, .16);
-    color: #F3D9A4
+    color: #15048a
 }
 
 .top-nav-item-active:before {
@@ -243,7 +268,7 @@ select {
 
 .role-option-desc {
     font-size: 11.5px;
-    color: #8A97AC;
+    color: #000000;
     margin-top: 2px;
     line-height: 1.35
 }
@@ -289,7 +314,7 @@ select {
 
 .account-role {
     font-size: 11px;
-    color: #8A97AC
+    color: #000000
 }
 
 .logout-icon {
@@ -359,7 +384,7 @@ select {
     text-transform: uppercase;
     letter-spacing: 1.6px;
     font-weight: 600;
-    color: #F3D9A4;
+    color: #15048a;
     font-family: var(--font-mono)
 }
 
@@ -376,7 +401,7 @@ select {
 .hero-sub {
     position: relative;
     font-size: 14.5px;
-    color: #A9B3C4;
+    color: #000000;
     margin-bottom: 26px
 }
 
@@ -428,7 +453,7 @@ select {
 
 .search-submit {
     background: var(--amber);
-    color: #1B1304;
+    color: #ffffff;
     border: none;
     font-weight: 600;
     font-size: 14px;
@@ -460,13 +485,13 @@ select {
 
 .hero-stat-label {
     font-size: 12px;
-    color: #8A97AC
+    color: #000000
 }
 
 .hero-stat-sep {
     width: 1px;
     height: 30px;
-    background: rgba(255, 255, 255, .12)
+    background: rgba(1, 1, 1, 0.12)
 }
 
 .search-empty {
@@ -817,7 +842,7 @@ select {
 
 .topbar,
 .compact-topbar {
-    height: 58px;
+    height: 78px;
     min-height: 58px;
     padding: 0 20px;
     gap: 22px;
@@ -838,7 +863,7 @@ select {
 }
 
 .brand-title {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1;
 }
 
@@ -1842,7 +1867,7 @@ select {
     border: 0;
     border-radius: 11px;
     background: var(--amber);
-    color: #1b1304;
+    color: #ffffff;
     padding: 0 16px;
     display: inline-flex;
     align-items: center;

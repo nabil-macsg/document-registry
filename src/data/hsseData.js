@@ -1093,6 +1093,71 @@ export const documents = [
   },
   {
     "id": "DOC-0085",
+    "documentNo": "GEN-HSSE-B-331",
+    "documentTitle": "General Workplace Amenities",
+    "category": "Procedure",
+    "subCategory": "Occupational Health, Welfare & PPE",
+    "documentType": "Standard",
+    "procedureNo": "GEN-HSSE-B-331",
+    "procedureTitle": "General Workplace Amenities",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1iTeir5CKEOl6gP6kec778xWnpyIfdMgV/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0086",
+    "documentNo": "GEN-HSSE-B-332",
+    "documentTitle": "Temporary Employer Supplied Accommodation",
+    "category": "Procedure",
+    "subCategory": "Occupational Health, Welfare & PPE",
+    "documentType": "Standard",
+    "procedureNo": "GEN-HSSE-B-332",
+    "procedureTitle": "Temporary Employer Supplied Accommodation",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1xBkXZ9_eWgNTkzv3TP2-PGMgKZaM07or/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0087",
+    "documentNo": "GEN-HSSE-B-333",
+    "documentTitle": "Permit to Work Systems For General Works",
+    "category": "Procedure",
+    "subCategory": "Operational Safety & Asset Controls",
+    "documentType": "Standard",
+    "procedureNo": "GEN-HSSE-B-333",
+    "procedureTitle": "Permit to Work Systems For General Works",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1GhbghZPCeG7_4attgqUjh1lH6FyE82as/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0088",
+    "documentNo": "GEN-HSSE-B-334",
+    "documentTitle": "Lock out - Tag out (Isolation)",
+    "category": "Procedure",
+    "subCategory": "Operational Safety & Asset Controls",
+    "documentType": "Standard",
+    "procedureNo": "GEN-HSSE-B-334",
+    "procedureTitle": "Lock out - Tag out (Isolation)",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1VxCQTGzPYsvnowUGMKAxQ0O2ayJ_uH4Q/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0089",
+    "documentNo": "GEN-HSSE-B-335",
+    "documentTitle": "Underwater Activities",
+    "category": "Procedure",
+    "subCategory": "Operational Safety & Asset Controls",
+    "documentType": "Standard",
+    "procedureNo": "GEN-HSSE-B-335",
+    "procedureTitle": "Underwater Activities",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1HOaXpYfdZZgbAe112DNHx9zHOZLTb-SB/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0090",
     "documentNo": "GEN-HSSE-B-001-APP1",
     "documentTitle": "OH&S Policy (Display)",
     "category": "Form",
@@ -1105,7 +1170,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1aiVAPwsDYE2muo8L1_RjWG9id8A1O1P7/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0086",
+    "id": "DOC-0091",
     "documentNo": "GEN-HSSE-B-001-APP2",
     "documentTitle": "OH&S Approval and Commitment",
     "category": "Form",
@@ -1118,7 +1183,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1y1OYGw8km7nYoQdYWVYTGCfd44TOph66/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0087",
+    "id": "DOC-0092",
     "documentNo": "GEN-HSSE-B-101-F01",
     "documentTitle": "Visitor Site Access Request",
     "category": "Form",
@@ -1131,7 +1196,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1CkOdOAJsN3Dhb4AKKk34AhhU4nOEy24f/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0088",
+    "id": "DOC-0093",
     "documentNo": "GEN-HSSE-B-101-F02",
     "documentTitle": "Vehicle Site Access Request",
     "category": "Form",
@@ -1144,7 +1209,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1EwboPDqFhqxyk5fuOoBFdHzeHiUQniuV/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0089",
+    "id": "DOC-0094",
     "documentNo": "GEN-HSSE-B-101-F03",
     "documentTitle": "Lost Card Form",
     "category": "Form",
@@ -1157,7 +1222,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1qsTrCxRBoXZLboRueh5daYUS2Mq0P3X5/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0090",
+    "id": "DOC-0095",
     "documentNo": "GEN-HSSE-B-101-F04",
     "documentTitle": "Property Removal Form",
     "category": "Form",
@@ -1170,7 +1235,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1LpaDjq4K6TL5lHKJ6YkaWrgFTdpNz5OT/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0091",
+    "id": "DOC-0096",
     "documentNo": "GEN-HSSE-B-101-F05",
     "documentTitle": "Security Incident Report Form",
     "category": "Form",
@@ -1183,7 +1248,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1P7__8n3Fcz0AzkZK8Yarrc9Au1QN15Pp/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0092",
+    "id": "DOC-0097",
     "documentNo": "GEN-HSSE-B-101-F06",
     "documentTitle": "Personal Equipment Verification Form",
     "category": "Form",
@@ -1196,7 +1261,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1Tj4y4qeKcqOkrYdIhSVcy60CSq5KL68f/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0093",
+    "id": "DOC-0098",
     "documentNo": "GEN-HSSE-B-101-F07",
     "documentTitle": "Camera Pass Request Form",
     "category": "Form",
@@ -1209,7 +1274,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1FqIUCa1s0m34g4RQgIYmHCcM3D9tRQoc/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0094",
+    "id": "DOC-0099",
     "documentNo": "GEN-HSSE-B-101-F08",
     "documentTitle": "Security Pass Register",
     "category": "Form",
@@ -1222,7 +1287,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/spreadsheets/d/1CWfViAP3myCOIFfzFd2wGTW9C7cQp9vJ/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0095",
+    "id": "DOC-0100",
     "documentNo": "GEN-HSSE-B-103-F01",
     "documentTitle": "JMP Risk Assessment",
     "category": "Form",
@@ -1235,7 +1300,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1wMYxw8mN15q-PNV3OxoFvdbnVMw7DnG2/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0096",
+    "id": "DOC-0101",
     "documentNo": "GEN-HSSE-B-103-F02",
     "documentTitle": "Journey Management Plan Form",
     "category": "Form",
@@ -1248,7 +1313,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1QEz3ABhKXOoXbPX0qMl3nOzd5Mk6zvAX/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0097",
+    "id": "DOC-0102",
     "documentNo": "GEN-HSSE-B-103-F03",
     "documentTitle": "Driver Authorisation Form",
     "category": "Form",
@@ -1261,7 +1326,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1vSiWTsbA1DDwC1_3yOGz32dNOM9ZKJ3t/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0098",
+    "id": "DOC-0103",
     "documentNo": "GEN-HSSE-B-105-APP1",
     "documentTitle": "Chemical Approval Workflow",
     "category": "Form",
@@ -1274,7 +1339,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1iImkctjzJN3QLA-Nc47om5YziNrysAgu/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0099",
+    "id": "DOC-0104",
     "documentNo": "GEN-HSSE-B-105-E01",
     "documentTitle": "Hazardous Substance Register",
     "category": "Form",
@@ -1287,7 +1352,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/spreadsheets/d/1D1bSQDRJJbw2eeiljHXuqq4yi76YihRv/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0100",
+    "id": "DOC-0105",
     "documentNo": "GEN-HSSE-B-105-F01",
     "documentTitle": "Chemical Risk Assessment Form",
     "category": "Form",
@@ -1300,7 +1365,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1Ozkpe0tB0u5XydXXTdB0KCU3VEhyxXI2/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0101",
+    "id": "DOC-0106",
     "documentNo": "GEN-HSSE-B-105-F02",
     "documentTitle": "Spill Kit Inspection Log",
     "category": "Form",
@@ -1313,7 +1378,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1nFjAq9eV6rDYtWcXv7omYubMh9snYC2T/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0102",
+    "id": "DOC-0107",
     "documentNo": "GEN-HSSE-B-105-F03",
     "documentTitle": "Hazardous Waste Disposal Tracking Log",
     "category": "Form",
@@ -1326,7 +1391,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1qRK3o3N-L9YBeo2OQEg6-7oWhfAbfMGr/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0103",
+    "id": "DOC-0108",
     "documentNo": "GEN-HSSE-B-106-E01",
     "documentTitle": "PAT Test Register",
     "category": "Form",
@@ -1339,7 +1404,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/spreadsheets/d/1v9vAV-ufqhBP_WLgKuMYqmm6dZjUDo5G/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0104",
+    "id": "DOC-0109",
     "documentNo": "GEN-HSSE-B-106-F01",
     "documentTitle": "Portable Equipment Pre Use Checklist",
     "category": "Form",
@@ -1352,7 +1417,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1EeAdfy2DdfTEHyGBS5nXZidIEd2jElTn/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0105",
+    "id": "DOC-0110",
     "documentNo": "GEN-HSSE-B-106-F02",
     "documentTitle": "Portable Appliance Defect Report",
     "category": "Form",
@@ -1365,7 +1430,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1kdo1OEO6RZc67YsJKdLBg9eNqghqXlTh/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0106",
+    "id": "DOC-0111",
     "documentNo": "GEN-HSSE-B-107-CL01",
     "documentTitle": "Gas Control Area Entry Checklist",
     "category": "Form",
@@ -1378,7 +1443,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1wIMiZuTk2q8uKNzs8HTQeNUDpkHI6jqC/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0107",
+    "id": "DOC-0112",
     "documentNo": "GEN-HSSE-B-107-CL02",
     "documentTitle": "Gas Control Area Inspection & Audit Checklist",
     "category": "Form",
@@ -1391,7 +1456,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/11uUU9hFXLgwjqdRsNTYY_faGkTe6QFvX/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0108",
+    "id": "DOC-0113",
     "documentNo": "GEN-HSSE-B-107-E01",
     "documentTitle": "Register of Approved PEDs",
     "category": "Form",
@@ -1404,7 +1469,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1ss1rAuVDYVVtZ-tGxXWRofuY_cCh65np/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0109",
+    "id": "DOC-0114",
     "documentNo": "GEN-HSSE-B-107-F01",
     "documentTitle": "Gas Control Area",
     "category": "Form",
@@ -1417,7 +1482,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1NONJQqTHWXtlxPXa3k7GtKBPTOPaMVxI/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0110",
+    "id": "DOC-0115",
     "documentNo": "GEN-HSSE-B-107-F02",
     "documentTitle": "Gas Test Record",
     "category": "Form",
@@ -1430,7 +1495,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/17a-Vr5QrIwasPBAsZ210p6b_kblKNLyr/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0111",
+    "id": "DOC-0116",
     "documentNo": "GEN-HSSE-B-109-F1",
     "documentTitle": "First Aid Kit Checklist",
     "category": "Form",
@@ -1443,7 +1508,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1WF26EjdXWRj6Yk1JlrzLY1fLipaBTSgS/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0112",
+    "id": "DOC-0117",
     "documentNo": "GEN-HSSE-B-109-R1",
     "documentTitle": "Usage Register for First Aid Boxes",
     "category": "Form",
@@ -1456,7 +1521,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1opbILPpkXACqO8pzKJCD8M4wT7EtRrL9/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0113",
+    "id": "DOC-0118",
     "documentNo": "GEN-HSSE-B-110-CL01",
     "documentTitle": "Confined Space Equipment Inspection Checklist",
     "category": "Form",
@@ -1469,7 +1534,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1T_4-dX9Q50ClGkQ-iYGZGKtGItHFiE_N/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0114",
+    "id": "DOC-0119",
     "documentNo": "GEN-HSSE-B-110-E01",
     "documentTitle": "Confined Space Register",
     "category": "Form",
@@ -1482,7 +1547,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1N6p0_X9mLZI7nT231imsefXtnlul6Rt7/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0115",
+    "id": "DOC-0120",
     "documentNo": "GEN-HSSE-B-110-F01",
     "documentTitle": "Confined Space Classification Form",
     "category": "Form",
@@ -1495,7 +1560,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1Zku9_uzPXTgg4e-A-afgUcFSwReRj2HM/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0116",
+    "id": "DOC-0121",
     "documentNo": "GEN-HSSE-B-110-F02",
     "documentTitle": "Confined Space Risk Assessment",
     "category": "Form",
@@ -1508,7 +1573,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1ltGTXBXlHnSP6rzs_m2_3jV41dDm3yFl/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0117",
+    "id": "DOC-0122",
     "documentNo": "GEN-HSSE-B-110-F03",
     "documentTitle": "Confined Space Entry Permit",
     "category": "Form",
@@ -1521,7 +1586,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1135hkuWDknVkYyDBx3d-ioI6StvA6HkS/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0118",
+    "id": "DOC-0123",
     "documentNo": "GEN-HSSE-B-110-F04",
     "documentTitle": "Atmospheric Testing & Entry Log",
     "category": "Form",
@@ -1534,7 +1599,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/17tFBD1l63LdhiUoNMlbp4kd3sjaZXR0k/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0119",
+    "id": "DOC-0124",
     "documentNo": "GEN-HSSE-B-110-F05",
     "documentTitle": "Designated Person Atmospheric Test Report",
     "category": "Form",
@@ -1547,7 +1612,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/19mcCqAiw15XEf-RIVNcD-izA0UuU9XIk/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0120",
+    "id": "DOC-0125",
     "documentNo": "GEN-HSSE-B-110-F06",
     "documentTitle": "Confined Space Rescue Plan",
     "category": "Form",
@@ -1560,7 +1625,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1dj-KPsyr-Nms0TjCjgH_lwNIrICqG4Bc/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0121",
+    "id": "DOC-0126",
     "documentNo": "GEN-HSSE-B-110-F07",
     "documentTitle": "Confined Space Training & Competency Record",
     "category": "Form",
@@ -1573,7 +1638,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1EF2a9FwfjtxWMQ6BOaE8j1IsfeYQytAI/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0122",
+    "id": "DOC-0127",
     "documentNo": "GEN-HSSE-B-110-F08",
     "documentTitle": "Confined Space Rescue Drill Record",
     "category": "Form",
@@ -1586,7 +1651,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1eAw1jYVMUr0CDmHHxz8up__CBoTYb0cL/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0123",
+    "id": "DOC-0128",
     "documentNo": "GEN-HSSE-B-111-CL01",
     "documentTitle": "Communication Effectiveness Review Checklist",
     "category": "Form",
@@ -1599,7 +1664,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/13eTSYWX3NnFWfi4goe1FIB9RSUNiKm_S/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0124",
+    "id": "DOC-0129",
     "documentNo": "GEN-HSSE-B-111-E01",
     "documentTitle": "Toolbox Talk Record & Attendance Register",
     "category": "Form",
@@ -1612,7 +1677,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1qydQEh6oxHSRSjDdC9sko4q-5l9sRke4/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0125",
+    "id": "DOC-0130",
     "documentNo": "GEN-HSSE-B-111-E02",
     "documentTitle": "Evidence Register",
     "category": "Form",
@@ -1625,7 +1690,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1PIw3AY2ht_TlALJC21D-RfwB3pdq2o8F/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0126",
+    "id": "DOC-0131",
     "documentNo": "GEN-HSSE-B-111-F01",
     "documentTitle": "Control Matrix",
     "category": "Form",
@@ -1638,7 +1703,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1-bNScQRDNwIP4vwsX1pEuc5rmP6nfs0J/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0127",
+    "id": "DOC-0132",
     "documentNo": "GEN-HSSE-B-111-F02",
     "documentTitle": "Monthly HSE Meeting Agenda & Minutes",
     "category": "Form",
@@ -1651,7 +1716,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1A98EfRSqz7_L5_0HBbbSjVuIutGdNU35/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0128",
+    "id": "DOC-0133",
     "documentNo": "GEN-HSSE-B-111-F03",
     "documentTitle": "Workforce Consultation Record",
     "category": "Form",
@@ -1664,7 +1729,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1KSyJXO9AWakKI1qvLL62CuzoF2w16h8U/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0129",
+    "id": "DOC-0134",
     "documentNo": "GEN-HSSE-B-111-F04",
     "documentTitle": "Safety Alert- Lessons Learned",
     "category": "Form",
@@ -1677,7 +1742,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/10ok7D-ajbSl4p7a21n62wuLmHHLERmXF/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0130",
+    "id": "DOC-0135",
     "documentNo": "GEN-HSSE-B-112-CL01",
     "documentTitle": "Illness Case Response Checklist",
     "category": "Form",
@@ -1690,7 +1755,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1prrHhHNpebfsiZm1k4HZ1g5cxmJm15JG/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0131",
+    "id": "DOC-0136",
     "documentNo": "GEN-HSSE-B-112-CL02",
     "documentTitle": "Illness & Disease Audit Checklist",
     "category": "Form",
@@ -1703,7 +1768,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1t3w33x1hpG6py1aVSBKg9PLwWRJfCTxo/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0132",
+    "id": "DOC-0137",
     "documentNo": "GEN-HSSE-B-112-E01",
     "documentTitle": "Cleaning and Sanitisation Register",
     "category": "Form",
@@ -1716,7 +1781,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1pVvTB7bM6pUMcd3KiF7PNN8VJjvPUth5/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0133",
+    "id": "DOC-0138",
     "documentNo": "GEN-HSSE-B-112-F01",
     "documentTitle": "Illness and Disease Risk Assessment",
     "category": "Form",
@@ -1729,7 +1794,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1pHNGeB2J-VxiWXc_l4hq-92Q7aebRcxd/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0134",
+    "id": "DOC-0139",
     "documentNo": "GEN-HSSE-B-112-F02",
     "documentTitle": "Health - Exposure Declaration Form",
     "category": "Form",
@@ -1742,7 +1807,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1sdEGyCorhaZZwKFQiUXEfIxdeQGXr2Ql/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0135",
+    "id": "DOC-0140",
     "documentNo": "GEN-HSSE-B-112-F03",
     "documentTitle": "Return-to-Work Fitness-for-Duty Assessment",
     "category": "Form",
@@ -1755,7 +1820,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1AzO_9H-UmvLOvMuBDUz8gLZfOrOEyzg7/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0136",
+    "id": "DOC-0141",
     "documentNo": "GEN-HSSE-B-112-F04",
     "documentTitle": "Illness Escalation and Decision Flowchart",
     "category": "Form",
@@ -1768,7 +1833,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1u9WD8cOkhKYz_rnM_rHfjmVfFqfvzu4A/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0137",
+    "id": "DOC-0142",
     "documentNo": "GEN-HSSE-B-113-F1",
     "documentTitle": "Vehicle Inspection Checklist",
     "category": "Form",
@@ -1781,7 +1846,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1r4NXWVvP8eJSElAAbHknLTrS8FBw7jye/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0138",
+    "id": "DOC-0143",
     "documentNo": "GEN-HSSE-B-114-F01",
     "documentTitle": "Nomination and Authorisation Certificate",
     "category": "Form",
@@ -1794,7 +1859,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1rdoVqD0bjTLGWy4TEGwofBFWLsGsUNi1/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0139",
+    "id": "DOC-0144",
     "documentNo": "GEN-HSSE-B-114-F02",
     "documentTitle": "Authorisation Panel Assessment Record",
     "category": "Form",
@@ -1807,7 +1872,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1p17oeTSFojiPvRnrM6uWnMTJcdU6w_Ol/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0140",
+    "id": "DOC-0145",
     "documentNo": "GEN-HSSE-B-114-F03",
     "documentTitle": "Annual Review & Re-Accreditation Form",
     "category": "Form",
@@ -1820,7 +1885,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1EgTeQaDw-q7FXlJftRRh7Y-IC7FwAhLH/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0141",
+    "id": "DOC-0146",
     "documentNo": "GEN-HSSE-B-114-F04",
     "documentTitle": "Authorisation Matrix",
     "category": "Form",
@@ -1833,7 +1898,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/144HSHCmeZMngVKODt1eToFVbuUVFwAeV/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0142",
+    "id": "DOC-0147",
     "documentNo": "GEN-HSSE-B-114-F05",
     "documentTitle": "GN01 Acknowledgement Form",
     "category": "Form",
@@ -1846,11 +1911,11 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/14h-1LBwuRgv7iBCUMtK2MduwVRMSfvlL/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0143",
+    "id": "DOC-0148",
     "documentNo": "GEN-HSSE-B-115-CL01",
     "documentTitle": "Operational HSE Readiness Review Checklist",
     "category": "Form",
-    "subCategory": "",
+    "subCategory": "Operational Safety & Asset Controls",
     "documentType": "Checklist",
     "procedureNo": "GEN-HSSE-B-115",
     "procedureTitle": "",
@@ -1859,7 +1924,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1N0XAUaI5kf4HzyeXFXLBCFeFArDqxY01/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0144",
+    "id": "DOC-0149",
     "documentNo": "GEN-HSSE-B-116-E01",
     "documentTitle": "OH&S Objectives & KPIs Register",
     "category": "Form",
@@ -1872,7 +1937,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1Mhe6HOxG68tPL5w1uDY6bbpfYekF1Oeu/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0145",
+    "id": "DOC-0150",
     "documentNo": "GEN-HSSE-B-119-CL01",
     "documentTitle": "Emergency Shower Inspection Checklist",
     "category": "Form",
@@ -1885,7 +1950,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1fxwCm-gqba_Q-FYcCn0RAn4zCbV4dA3J/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0146",
+    "id": "DOC-0151",
     "documentNo": "GEN-HSSE-B-119-CL02",
     "documentTitle": "Water Tank Cleaning Checklist",
     "category": "Form",
@@ -1898,7 +1963,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1hoyne489MvELNhoTIzUd7PIdi6nNtApz/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0147",
+    "id": "DOC-0152",
     "documentNo": "GEN-HSSE-B-119-F01",
     "documentTitle": "Legionella Risk Assessment",
     "category": "Form",
@@ -1911,7 +1976,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1i1DdCfE6Ix3eaEC6oRHM0zlqD10uIkp1/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0148",
+    "id": "DOC-0153",
     "documentNo": "GEN-HSSE-B-119-F02",
     "documentTitle": "Temperature Monitoring Log",
     "category": "Form",
@@ -1924,7 +1989,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1qrkRdyr_SJ5fTC7kUOgSljYUUUz4jNSX/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0149",
+    "id": "DOC-0154",
     "documentNo": "GEN-HSSE-B-121-APP1",
     "documentTitle": "Incident Notification Flow",
     "category": "Form",
@@ -1937,7 +2002,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1MQY46cKk9r_UNUKlsjErs-0aG92Qr1Qm/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0150",
+    "id": "DOC-0155",
     "documentNo": "GEN-HSSE-B-121-APP2",
     "documentTitle": "Investigation Level & Timeframe Matrix",
     "category": "Form",
@@ -1950,7 +2015,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1ACkv6571cEk9Fg72JRv7_fCxFMsjLbhY/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0151",
+    "id": "DOC-0156",
     "documentNo": "GEN-HSSE-B-121-APP3",
     "documentTitle": "Scene Preservation & Evidence Checklist",
     "category": "Form",
@@ -1963,7 +2028,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1ZZ_wCbY-L6rEnvK23d-1ywqbfXnHftHl/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0152",
+    "id": "DOC-0157",
     "documentNo": "GEN-HSSE-B-121-E01",
     "documentTitle": "Corrective & Preventive Action Register",
     "category": "Form",
@@ -1976,7 +2041,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1tHHMT2MUZQ8WtYwC3htJRMMwATSSD9Nl/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0153",
+    "id": "DOC-0158",
     "documentNo": "GEN-HSSE-B-121-E02",
     "documentTitle": "Regulatory & Authority Notification Register",
     "category": "Form",
@@ -1989,7 +2054,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1qbgRj7vLQ8Tw7bQpVYkKDSwu5ylrMpk2/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0154",
+    "id": "DOC-0159",
     "documentNo": "GEN-HSSE-B-121-F01",
     "documentTitle": "Incident & Near Miss Reporting Form",
     "category": "Form",
@@ -2002,7 +2067,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1g-b-o4GAOEJm9hRwo10rwp26DO_nAogv/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0155",
+    "id": "DOC-0160",
     "documentNo": "GEN-HSSE-B-121-F02",
     "documentTitle": "Incident Investigation Report Template",
     "category": "Form",
@@ -2015,7 +2080,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/14N-Tcfryuvv3H5vjfjkRxzpOdpyNsYbF/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0156",
+    "id": "DOC-0161",
     "documentNo": "GEN-HSSE-B-122-F1",
     "documentTitle": "SAB Template",
     "category": "Form",
@@ -2028,7 +2093,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/130Z-YLGK4Usyjw_OebCjqDYSdQ_84gQd/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0157",
+    "id": "DOC-0162",
     "documentNo": "GEN-HSSE-B-124-APP1",
     "documentTitle": "Risk Matrix",
     "category": "Form",
@@ -2041,7 +2106,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1AmGBdN9js3ipl_HBdjPA8Iq1DY7AdnoR/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0158",
+    "id": "DOC-0163",
     "documentNo": "GEN-HSSE-B-124-APP2",
     "documentTitle": "Risk Assessment Template",
     "category": "Form",
@@ -2054,7 +2119,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1-E6RKUm0ygloz0M0qyFtw3ZeWIAZnQx3/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0159",
+    "id": "DOC-0164",
     "documentNo": "GEN-HSSE-B-124-APP3",
     "documentTitle": "Risk Assessment Template (Example)",
     "category": "Form",
@@ -2067,7 +2132,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1biZZ41CKNZKuI-YOcI4-ZO3iRNq9H9GO/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0160",
+    "id": "DOC-0165",
     "documentNo": "GEN-HSSE-B-124-APP4",
     "documentTitle": "Hazard Categories",
     "category": "Form",
@@ -2080,7 +2145,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1-VEa0j8G95mCaKg53MKIwAxjF9Z2qgWq/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0161",
+    "id": "DOC-0166",
     "documentNo": "GEN-HSSE-B-127-APP1",
     "documentTitle": "Document Control Framework",
     "category": "Form",
@@ -2093,7 +2158,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1kO2KbtHWsKJaDc3mdjd5L3vESx8woi5x/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0162",
+    "id": "DOC-0167",
     "documentNo": "GEN-HSSE-B-130-APP1",
     "documentTitle": "Management of Change Framework",
     "category": "Form",
@@ -2106,7 +2171,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/19y6U4jM3KX6mOQD18WvsPBaTv9y4bADL/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0163",
+    "id": "DOC-0168",
     "documentNo": "GEN-HSSE-B-130-F01",
     "documentTitle": "HSSE MoC Request and Assessment Record",
     "category": "Form",
@@ -2119,7 +2184,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1Ieavoby7WbPAaK3STXBkxzPjNCYX9ouV/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0164",
+    "id": "DOC-0169",
     "documentNo": "GEN-HSSE-B-134-APP1",
     "documentTitle": "PPE Selection Matrix by Task and Hazard",
     "category": "Form",
@@ -2132,7 +2197,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1LUL7QZYd8q3WXuvDVeFLfsSRBECLsPZb/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0165",
+    "id": "DOC-0170",
     "documentNo": "GEN-HSSE-B-134-APP2",
     "documentTitle": "Mandatory PPE Signage & Site Rules",
     "category": "Form",
@@ -2145,7 +2210,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/15ichjoANLmGBP4d0J5syKjdFCunZXSdn/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0166",
+    "id": "DOC-0171",
     "documentNo": "GEN-HSSE-B-134-APP3",
     "documentTitle": "PPE Inspection and Replacement Frequency Guide",
     "category": "Form",
@@ -2158,7 +2223,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1obzorTCKOjU8S75PoAQofVVMjcA31wmM/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0167",
+    "id": "DOC-0172",
     "documentNo": "GEN-HSSE-B-134-CL01",
     "documentTitle": "PPE Inspection Checklist",
     "category": "Form",
@@ -2171,7 +2236,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/16ptmuEEDeF7ReZIYqJsbgMDp1sMCGhZx/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0168",
+    "id": "DOC-0173",
     "documentNo": "GEN-HSSE-B-134-E01",
     "documentTitle": "PPE Issue & Acknowledgement Register",
     "category": "Form",
@@ -2184,7 +2249,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/18TA6i_fUVT1FoWfNm9YGuCpuPOywieQQ/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0169",
+    "id": "DOC-0174",
     "documentNo": "GEN-HSSE-B-134-F01",
     "documentTitle": "PPE Hazard Identification & Selection Record",
     "category": "Form",
@@ -2197,7 +2262,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1lS7nlW3U9873CvDPr8Xk9IY1zIdSBAaT/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0170",
+    "id": "DOC-0175",
     "documentNo": "GEN-HSSE-B-134-F02",
     "documentTitle": "Respiratory Protective Equipment (RPE) Fit Test Record",
     "category": "Form",
@@ -2210,7 +2275,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1RKw3iKb9uItoVH2NQVyqd18vA92oA_aV/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0171",
+    "id": "DOC-0176",
     "documentNo": "GEN-HSSE-B-134-F03",
     "documentTitle": "PPE Deviation & Exemption Request Form",
     "category": "Form",
@@ -2223,7 +2288,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1tUWWdiAVeC_IuCXoN_uQ22B4HAGk8zxo/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0172",
+    "id": "DOC-0177",
     "documentNo": "GEN-HSSE-B-137-APP1",
     "documentTitle": "Example Vibration Risk Assessment",
     "category": "Form",
@@ -2236,7 +2301,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1FZEkp6B8oDHZJlHCuhsL5dYDGbCSAlO-/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0173",
+    "id": "DOC-0178",
     "documentNo": "GEN-HSSE-B-137-APP2",
     "documentTitle": "Guidance on Recognising Vibration-Related Symptoms",
     "category": "Form",
@@ -2249,7 +2314,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1MXOqpKrhoQ2LPch5QFZsL73cb9Qv_J2E/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0174",
+    "id": "DOC-0179",
     "documentNo": "GEN-HSSE-B-137-E01",
     "documentTitle": "Vibration Exposure Register",
     "category": "Form",
@@ -2262,7 +2327,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1jjj6X6JoxEonVmARrI2KFXhHTM5J7NS_/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0175",
+    "id": "DOC-0180",
     "documentNo": "GEN-HSSE-B-137-F01",
     "documentTitle": "Vibration Risk Assessment",
     "category": "Form",
@@ -2275,7 +2340,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1zWZZjVkiHbTBVOlJL5fAnxtWE17MJyqP/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0176",
+    "id": "DOC-0181",
     "documentNo": "GEN-HSSE-B-138-APP1",
     "documentTitle": "Lone Working Risk Assessment Guidance",
     "category": "Form",
@@ -2288,7 +2353,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1JGLVG3FZ4cARwzYRtbpnuFyeRJKnVAcD/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0177",
+    "id": "DOC-0182",
     "documentNo": "GEN-HSSE-B-138-CL01",
     "documentTitle": "Lone Worker Checklist",
     "category": "Form",
@@ -2301,7 +2366,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1fYub_EZ46vdFZ98-zPRm1mTcPVgF6r1K/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0178",
+    "id": "DOC-0183",
     "documentNo": "GEN-HSSE-B-138-F01",
     "documentTitle": "Lone Working Risk Assessment",
     "category": "Form",
@@ -2314,7 +2379,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1b3Fe0Kl0vqvqibXlX4G8cF6Abo7ZVlPh/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0179",
+    "id": "DOC-0184",
     "documentNo": "GEN-HSSE-B-138-F02",
     "documentTitle": "Lone Working Communication Plan Template",
     "category": "Form",
@@ -2327,7 +2392,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1GBQrPH5zDyJHyNucFvZwX7DRxQwsig0c/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0180",
+    "id": "DOC-0185",
     "documentNo": "GEN-HSSE-B-138-F03",
     "documentTitle": "Emergency Escalation Flowchart",
     "category": "Form",
@@ -2340,7 +2405,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1RYgXDxHJZStsG9wFLvCw_ylSBJ1s1xNB/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0181",
+    "id": "DOC-0186",
     "documentNo": "GEN-HSSE-B-138-F04",
     "documentTitle": "Lone Working Authorisation Certificate",
     "category": "Form",
@@ -2353,7 +2418,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1L1wPCA48wUzPexVKuuFQk70sMfEdgClR/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0182",
+    "id": "DOC-0187",
     "documentNo": "GEN-HSSE-B-141-CL01",
     "documentTitle": "Ergonomic Assessment Checklist",
     "category": "Form",
@@ -2366,7 +2431,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1zoFDPyPvaRxGmmC-DPOMsno57CGRdcML/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0183",
+    "id": "DOC-0188",
     "documentNo": "GEN-HSSE-B-141-CL02",
     "documentTitle": "Supervisor Pre-Task Manual Handling Checklist",
     "category": "Form",
@@ -2379,7 +2444,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/17H8bxlkZO2PgFSQFkMSpnjyINy_dH3vv/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0184",
+    "id": "DOC-0189",
     "documentNo": "GEN-HSSE-B-141-F01",
     "documentTitle": "Manual Handling Risk Assessment",
     "category": "Form",
@@ -2392,7 +2457,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1puWpK44uBXqu-48qMF2whW51dRjJPNCh/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0185",
+    "id": "DOC-0190",
     "documentNo": "GEN-HSSE-B-141-F02",
     "documentTitle": "Ergonomic Self-Assessment (Employee)",
     "category": "Form",
@@ -2405,7 +2470,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/143Ec8kIpg0u55QQdo_xLPOLONhVbN83C/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0186",
+    "id": "DOC-0191",
     "documentNo": "GEN-HSSE-B-144-CL01",
     "documentTitle": "Accommodation Inspection Checklist",
     "category": "Form",
@@ -2418,7 +2483,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1NdZ4fIQ89FiWbfPNVVrTLJZKRr1bB74P/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0187",
+    "id": "DOC-0192",
     "documentNo": "GEN-HSSE-B-144-F01",
     "documentTitle": "Accommodation Risk Assessment Template",
     "category": "Form",
@@ -2431,7 +2496,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1leucoMa18CLgTXmtkqo0TyDdm_ZssT4s/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0188",
+    "id": "DOC-0193",
     "documentNo": "GEN-HSSE-B-144-F02",
     "documentTitle": "Contractor Accommodation Pre-Mobilisation Verification Form",
     "category": "Form",
@@ -2444,7 +2509,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1-7iL_L9u5dA-YffcD6Ehxe4wOX5bCd1v/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0189",
+    "id": "DOC-0194",
     "documentNo": "GEN-HSSE-B-144-F03",
     "documentTitle": "Occupant Accommodation Induction Pack",
     "category": "Form",
@@ -2457,7 +2522,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1WbeQTC7hwqJYZSiJxGA5nTDTxQBEmVsI/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0190",
+    "id": "DOC-0195",
     "documentNo": "GEN-HSSE-B-145-APP1",
     "documentTitle": "Example Food Handling & Food Preparation Risk Assessment",
     "category": "Form",
@@ -2470,7 +2535,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1mNsvTPaGZh4-2VGuW1fOvPVwemr4Rn_Z/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0191",
+    "id": "DOC-0196",
     "documentNo": "GEN-HSSE-B-145-APP2",
     "documentTitle": "Allergen Control Matrix",
     "category": "Form",
@@ -2483,7 +2548,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/160ijewauqnuk0carNm5KZuS5Qdpk2ZDA/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0192",
+    "id": "DOC-0197",
     "documentNo": "GEN-HSSE-B-145-CL01",
     "documentTitle": "Food Handling & Food Preparation Area Inspection Checklist",
     "category": "Form",
@@ -2496,7 +2561,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1inJDYe1dfowhpsu0WItSxEVuskEkhQWQ/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0193",
+    "id": "DOC-0198",
     "documentNo": "GEN-HSSE-B-145-CL02",
     "documentTitle": "Contractor Food Safety Compliance Checklist",
     "category": "Form",
@@ -2509,7 +2574,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1UvFok2HgSJXVAWoeXCwc6W4RoubI9hDV/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0194",
+    "id": "DOC-0199",
     "documentNo": "GEN-HSSE-B-145-E01",
     "documentTitle": "HACCP CCP Register",
     "category": "Form",
@@ -2522,7 +2587,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1XQav_RJzQMBxD3nMcZIoT8FM4LTe3FOj/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0195",
+    "id": "DOC-0200",
     "documentNo": "GEN-HSSE-B-145-F01",
     "documentTitle": "Food Handling & Food Preparation Risk Assessment",
     "category": "Form",
@@ -2535,7 +2600,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1ftnrcNvHn3J0-jecLMZyrzdU382jkF0q/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0196",
+    "id": "DOC-0201",
     "documentNo": "GEN-HSSE-B-145-F02",
     "documentTitle": "Temperature Monitoring Log",
     "category": "Form",
@@ -2548,7 +2613,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1gvZ_VokdlD_KlaA8pbO4G4B3tXFvOGoL/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0197",
+    "id": "DOC-0202",
     "documentNo": "GEN-HSSE-B-145-F03",
     "documentTitle": "Food Handler Induction Sheet",
     "category": "Form",
@@ -2561,7 +2626,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1LWU3n2QgjW_LWgjERE3s4VviYAcjhe6h/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0198",
+    "id": "DOC-0203",
     "documentNo": "GEN-HSSE-B-150-CL01",
     "documentTitle": "Pre-Use Inspection Checklist",
     "category": "Form",
@@ -2574,7 +2639,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1NCGPKzj0qqqlPh_nn45QqE7DQH216UEN/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0199",
+    "id": "DOC-0204",
     "documentNo": "GEN-HSSE-B-150-CL02",
     "documentTitle": "Daily Mobile Plant Checklist",
     "category": "Form",
@@ -2587,7 +2652,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1zYh7uiStPTJtrYzonNJsNfyCFBw2olns/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0200",
+    "id": "DOC-0205",
     "documentNo": "GEN-HSSE-B-150-CL03",
     "documentTitle": "Daily Fixed Plant Condition Log",
     "category": "Form",
@@ -2600,7 +2665,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1fpB59CodgDTfT2rmZjR52Srk8wJWiQ3G/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0201",
+    "id": "DOC-0206",
     "documentNo": "GEN-HSSE-B-150-E01",
     "documentTitle": "Statutory Inspection and Certification Register",
     "category": "Form",
@@ -2613,7 +2678,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/spreadsheets/d/1JhM-ljvVsyJaDTjPpLGSriiR8jgsqS_0/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0202",
+    "id": "DOC-0207",
     "documentNo": "GEN-HSSE-B-150-E02",
     "documentTitle": "Plant Asset Safety RegisterEnhanced",
     "category": "Form",
@@ -2626,7 +2691,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/spreadsheets/d/1ri_lY4Sgy0leS8e7DQ8i68-3by1DUdhj/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0203",
+    "id": "DOC-0208",
     "documentNo": "GEN-HSSE-B-150-F01",
     "documentTitle": "Plant and Equipment Risk Assessment",
     "category": "Form",
@@ -2639,7 +2704,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1Fc7DnxiAPshPcm_G5c_nV0u-kBmZzt3I/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0204",
+    "id": "DOC-0209",
     "documentNo": "GEN-HSSE-B-150-F02",
     "documentTitle": "Return to Service Authorisation",
     "category": "Form",
@@ -2652,7 +2717,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1aFl0lG1wF8vIyDRp1t0MhIUyaxPRfuUp/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0205",
+    "id": "DOC-0210",
     "documentNo": "GEN-HSSE-B-150-F03",
     "documentTitle": "Contractor Plant Approval Form",
     "category": "Form",
@@ -2665,7 +2730,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1OAsn62p5r114kO3LyCWNlFrSCCtjhxzq/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0206",
+    "id": "DOC-0211",
     "documentNo": "GEN-HSSE-B-153-APP1",
     "documentTitle": "LEV Thorough Examination & Test Minimum Parameters",
     "category": "Form",
@@ -2678,7 +2743,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/12ZGkY-v_TCs-wLAejvhNbvELdF7jVHGY/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0207",
+    "id": "DOC-0212",
     "documentNo": "GEN-HSSE-B-153-CL01",
     "documentTitle": "LEV Operator Pre-Use Check List",
     "category": "Form",
@@ -2691,7 +2756,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/12u1f_DCQAfeDBxeQIEBpDn5kXZBwtIon/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0208",
+    "id": "DOC-0213",
     "documentNo": "GEN-HSSE-B-153-CL02",
     "documentTitle": "Supervisor or HSSE LEV Inspection Checklist",
     "category": "Form",
@@ -2704,11 +2769,11 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1gGNUdrkzE94TrCDyDS2aovGhYGY9jQE5/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0209",
+    "id": "DOC-0214",
     "documentNo": "GEN-HSSE-B-154-CL01",
     "documentTitle": "Contractor Site HSSE Checklist",
     "category": "Form",
-    "subCategory": "",
+    "subCategory": "Operational Safety & Asset Controls",
     "documentType": "Checklist",
     "procedureNo": "GEN-HSSE-B-154",
     "procedureTitle": "",
@@ -2717,11 +2782,11 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/11xwaQHdi5l-n4QKoxemHbUA4OtW04UN3/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0210",
+    "id": "DOC-0215",
     "documentNo": "GEN-HSSE-B-154-CL02",
     "documentTitle": "Method Statement Acceptance Checklist",
     "category": "Form",
-    "subCategory": "",
+    "subCategory": "Operational Safety & Asset Controls",
     "documentType": "Checklist",
     "procedureNo": "GEN-HSSE-B-154",
     "procedureTitle": "",
@@ -2730,11 +2795,11 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1U7VGK6XYTnIYlMJM5gnzhn6m4HxPawCZ/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0211",
+    "id": "DOC-0216",
     "documentNo": "GEN-HSSE-B-154-E02",
     "documentTitle": "Contractor HSSE KPI Summary Sheet",
     "category": "Form",
-    "subCategory": "",
+    "subCategory": "Operational Safety & Asset Controls",
     "documentType": "Register",
     "procedureNo": "GEN-HSSE-B-154",
     "procedureTitle": "",
@@ -2743,11 +2808,11 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1HNLAhADp1SZsF4EbxHf-iAzW9D2W56O1/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0212",
+    "id": "DOC-0217",
     "documentNo": "GEN-HSSE-B-154-F01",
     "documentTitle": "Contractor HSSE Close-Out & Performance Review",
     "category": "Form",
-    "subCategory": "",
+    "subCategory": "Operational Safety & Asset Controls",
     "documentType": "Form",
     "procedureNo": "GEN-HSSE-B-154",
     "procedureTitle": "",
@@ -2756,11 +2821,11 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1G35bUz0mmETwnGQ6L7ndwmWnTwQG_lvS/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0213",
+    "id": "DOC-0218",
     "documentNo": "GEN-HSSE-B-154-F02",
     "documentTitle": "Contractor Enforcement & Escalation Log",
     "category": "Form",
-    "subCategory": "",
+    "subCategory": "Operational Safety & Asset Controls",
     "documentType": "Form",
     "procedureNo": "GEN-HSSE-B-154",
     "procedureTitle": "",
@@ -2769,11 +2834,11 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1jyP2Ml1HgDeO5hwUyjYobEJ5hyt3ctl4/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0214",
+    "id": "DOC-0219",
     "documentNo": "GEN-HSSE-B-156-CL01",
     "documentTitle": "BCM Activation Checklist",
     "category": "Form",
-    "subCategory": "",
+    "subCategory": "Operational Safety & Asset Controls",
     "documentType": "Checklist",
     "procedureNo": "GEN-HSSE-B-156",
     "procedureTitle": "",
@@ -2782,11 +2847,11 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/115gm0h3XLClU9p9NmSdsgI6zDtUQ-94R/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0215",
+    "id": "DOC-0220",
     "documentNo": "GEN-HSSE-B-156-E01",
     "documentTitle": "BCM Register",
     "category": "Form",
-    "subCategory": "",
+    "subCategory": "Operational Safety & Asset Controls",
     "documentType": "Register",
     "procedureNo": "GEN-HSSE-B-156",
     "procedureTitle": "",
@@ -2795,11 +2860,11 @@ export const documents = [
     "documentUrl": "https://docs.google.com/spreadsheets/d/1KKxf-PqtFmKNFOMOGGaaL2cCMYpg4KeL/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0216",
+    "id": "DOC-0221",
     "documentNo": "GEN-HSSE-B-156-F01",
     "documentTitle": "Business Impact Analysis (BIA)",
     "category": "Form",
-    "subCategory": "",
+    "subCategory": "Operational Safety & Asset Controls",
     "documentType": "Form",
     "procedureNo": "GEN-HSSE-B-156",
     "procedureTitle": "",
@@ -2808,11 +2873,11 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1IuXOtA9vkI7XwvHFn7ZPMHzH2XXhiGVq/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0217",
+    "id": "DOC-0222",
     "documentNo": "GEN-HSSE-B-156-F02",
     "documentTitle": "Business Continuity Plan (BCP)",
     "category": "Form",
-    "subCategory": "",
+    "subCategory": "Operational Safety & Asset Controls",
     "documentType": "Form",
     "procedureNo": "GEN-HSSE-B-156",
     "procedureTitle": "",
@@ -2821,11 +2886,11 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1lnqbGJXRRix8rNGRRbnSJLo_P6-tknxM/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0218",
+    "id": "DOC-0223",
     "documentNo": "GEN-HSSE-B-156-F03",
     "documentTitle": "Emergency to Recovery Handover Form",
     "category": "Form",
-    "subCategory": "",
+    "subCategory": "Operational Safety & Asset Controls",
     "documentType": "Form",
     "procedureNo": "GEN-HSSE-B-156",
     "procedureTitle": "",
@@ -2834,11 +2899,11 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1V2y3WqbzzyMXapNk7yGlWB_kzgnPlvHx/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0219",
+    "id": "DOC-0224",
     "documentNo": "GEN-HSSE-B-156-F04",
     "documentTitle": "BCM Exercise Report",
     "category": "Form",
-    "subCategory": "",
+    "subCategory": "Operational Safety & Asset Controls",
     "documentType": "Form",
     "procedureNo": "GEN-HSSE-B-156",
     "procedureTitle": "",
@@ -2847,7 +2912,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1h2y7WTDVpt8wogpVSE5ZA-wvinIRq4Xe/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0220",
+    "id": "DOC-0225",
     "documentNo": "GEN-HSSE-B-301-F01",
     "documentTitle": "Register of HV Compartments",
     "category": "Form",
@@ -2860,7 +2925,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1npH2xMEozDKWQesyQhq7XTS57VAVQCbf/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0221",
+    "id": "DOC-0226",
     "documentNo": "GEN-HSSE-B-302-F01",
     "documentTitle": "Safety Rules Clearance Certificate",
     "category": "Form",
@@ -2873,7 +2938,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1AaJRJMuxBTCRoZLL-sy_ABgjiP7jcslz/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0222",
+    "id": "DOC-0227",
     "documentNo": "GEN-HSSE-B-302-F02",
     "documentTitle": "Safety Rules Exclusion Certificate",
     "category": "Form",
@@ -2886,7 +2951,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1ADj2eYV1ChcdYzKBDZM4ymeyCynLN27F/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0223",
+    "id": "DOC-0228",
     "documentNo": "GEN-HSSE-B-303-F01",
     "documentTitle": "Safety Document Record Log",
     "category": "Form",
@@ -2899,7 +2964,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1EYOTioUnYR0HqMTzi6kUeeO-uVPggw6X/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0224",
+    "id": "DOC-0229",
     "documentNo": "GEN-HSSE-B-304-F01",
     "documentTitle": "Asbestos and MMMF Register",
     "category": "Form",
@@ -2912,7 +2977,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/10Qn1uAIh0Xmog7BJf2boZ13XSi32d8_r/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0225",
+    "id": "DOC-0230",
     "documentNo": "GEN-HSSE-B-310-F01",
     "documentTitle": "Record of Cross-Boundary (Inter-System) Safety Precautions",
     "category": "Form",
@@ -2925,7 +2990,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/11gkagVTnbilMlaH4SDG3hJ6I1PMzxnOE/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0226",
+    "id": "DOC-0231",
     "documentNo": "GEN-HSSE-B-311-F01",
     "documentTitle": "Safety Rules Earthing Schedule",
     "category": "Form",
@@ -2938,7 +3003,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/14h6-T0LtJ8Qt7crYBaS4MHe4VbLZ-zyu/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0227",
+    "id": "DOC-0232",
     "documentNo": "GEN-HSSE-B-316-F01",
     "documentTitle": "Register of Approved Tools, Equipment and Processes",
     "category": "Form",
@@ -2951,7 +3016,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1hW4Yh29M6KTL5xXSfx7dI36mSad0d4fU/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0228",
+    "id": "DOC-0233",
     "documentNo": "GEN-HSSE-B-317-F01",
     "documentTitle": "Objections on Safety Grounds",
     "category": "Form",
@@ -2964,7 +3029,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1dS9V1AX9-eipiNcJS7TuVM-czNE8hFQs/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0229",
+    "id": "DOC-0234",
     "documentNo": "GEN-HSSE-B-321-F01",
     "documentTitle": "Register of Designated Persons for HV Switching",
     "category": "Form",
@@ -2977,7 +3042,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1RvAfEtUz1gTiby_-hnO8Klcem2E6jsHI/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0230",
+    "id": "DOC-0235",
     "documentNo": "GEN-HSSE-B-324-F01",
     "documentTitle": "Lost Key(s) Form",
     "category": "Form",
@@ -2990,7 +3055,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1kjd9RcUpR0CbFS8tdMRSRjjySjI9XzC1/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0231",
+    "id": "DOC-0236",
     "documentNo": "GEN-HSSE-B-324-F02",
     "documentTitle": "Transfer of Acceptor Responsibilities Form",
     "category": "Form",
@@ -3003,7 +3068,7 @@ export const documents = [
     "documentUrl": "https://docs.google.com/document/d/1dEH0-vuJW-y7U-MHtTCvCbIvs0r9vDcs/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   },
   {
-    "id": "DOC-0232",
+    "id": "DOC-0237",
     "documentNo": "GEN-HSSE-B-324-F03",
     "documentTitle": "Special Clearance and Cancellation Certificate",
     "category": "Form",
@@ -3014,6 +3079,175 @@ export const documents = [
     "owner": "HSSE Mgr Gen",
     "department": "Gen HSSE",
     "documentUrl": "https://docs.google.com/document/d/1i4jXraLV3xHFZqFYtm0UzCiMVfYvGw11/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0238",
+    "documentNo": "GEN-HSSE-B-331-F01",
+    "documentTitle": "Water Quality Testing and Laboratory Analysis Records form",
+    "category": "Form",
+    "subCategory": "Occupational Health, Welfare & PPE",
+    "documentType": "Form",
+    "procedureNo": "GEN-HSSE-B-331",
+    "procedureTitle": "General Workplace Amenities",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1wtRugObOgYPrsuuT17gDz63u7TE9qnAs/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0239",
+    "documentNo": "GEN-HSSE-B-332-CL01",
+    "documentTitle": "Accommodation Weekly Inspection Checklist",
+    "category": "Form",
+    "subCategory": "Occupational Health, Welfare & PPE",
+    "documentType": "Checklist",
+    "procedureNo": "GEN-HSSE-B-332",
+    "procedureTitle": "Temporary Employer Supplied Accommodation",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1_a4LiwvQ_FY_vk_zsfxL-DzLiqZfCQEb/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0240",
+    "documentNo": "GEN-HSSE-B-332-F01",
+    "documentTitle": "Accommodation Intake Registration Form",
+    "category": "Form",
+    "subCategory": "Occupational Health, Welfare & PPE",
+    "documentType": "Form",
+    "procedureNo": "GEN-HSSE-B-332",
+    "procedureTitle": "Temporary Employer Supplied Accommodation",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1p4VPDzuX2iDbKoffJb0_ZEzBujQ2gUfD/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0241",
+    "documentNo": "GEN-HSSE-B-333-F01",
+    "documentTitle": "Limited Work Permit form",
+    "category": "Form",
+    "subCategory": "Operational Safety & Asset Controls",
+    "documentType": "Form",
+    "procedureNo": "GEN-HSSE-B-333",
+    "procedureTitle": "Permit to Work Systems For General Works",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/13tklRf27bGlKPv-PCfTH19R65xZXYcKh/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0242",
+    "documentNo": "GEN-HSSE-B-333-F02",
+    "documentTitle": "Limited Permit Suspension - Revalidation Record form",
+    "category": "Form",
+    "subCategory": "Operational Safety & Asset Controls",
+    "documentType": "Form",
+    "procedureNo": "GEN-HSSE-B-333",
+    "procedureTitle": "Permit to Work Systems For General Works",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/17PnTOCe_Fhy3xuW0u0DisYNMJI3vYQYK/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0243",
+    "documentNo": "GEN-HSSE-B-334-F01",
+    "documentTitle": "Isolation Certificate form",
+    "category": "Form",
+    "subCategory": "Operational Safety & Asset Controls",
+    "documentType": "Form",
+    "procedureNo": "GEN-HSSE-B-334",
+    "procedureTitle": "Lock out - Tag out (Isolation)",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1_AmHVqf2m3eWmRENK1YWFtbcS_jBzrwS/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0244",
+    "documentNo": "GEN-HSSE-B-334-CL01",
+    "documentTitle": "Isolation Restoration Checklist",
+    "category": "Form",
+    "subCategory": "Operational Safety & Asset Controls",
+    "documentType": "Checklist",
+    "procedureNo": "GEN-HSSE-B-334",
+    "procedureTitle": "Lock out - Tag out (Isolation)",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1hYcczhlxQzxrqs8yVgGSFqnEJMO_Wzf6/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0245",
+    "documentNo": "GEN-HSSE-B-335-E01",
+    "documentTitle": "Daily Dive Briefing Register",
+    "category": "Form",
+    "subCategory": "Operational Safety & Asset Controls",
+    "documentType": "Register",
+    "procedureNo": "GEN-HSSE-B-335",
+    "procedureTitle": "Underwater Activities",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/spreadsheets/d/11EEEnBkUXjJBzJiNqDP_yQVhF5zHDwHw/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0246",
+    "documentNo": "GEN-HSSE-B-335-E02",
+    "documentTitle": "Emergency Rescue Drill Register",
+    "category": "Form",
+    "subCategory": "Operational Safety & Asset Controls",
+    "documentType": "Register",
+    "procedureNo": "GEN-HSSE-B-335",
+    "procedureTitle": "Underwater Activities",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/spreadsheets/d/1iiweY59PYddQfIOCbf2C3fG1o0HfGIvG/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0247",
+    "documentNo": "GEN-HSSE-B-335-F01",
+    "documentTitle": "Underwater Activity Permit Request form",
+    "category": "Form",
+    "subCategory": "Operational Safety & Asset Controls",
+    "documentType": "Form",
+    "procedureNo": "GEN-HSSE-B-335",
+    "procedureTitle": "Underwater Activities",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/17FwUHFPkvau7bBAaamknZ2uy2b7P9V1R/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0248",
+    "documentNo": "GEN-HSSE-B-335-F02",
+    "documentTitle": "Underwater Activity Risk Assessment form",
+    "category": "Form",
+    "subCategory": "Operational Safety & Asset Controls",
+    "documentType": "Form",
+    "procedureNo": "GEN-HSSE-B-335",
+    "procedureTitle": "Underwater Activities",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1oBo5yUKqTis34cn-XWhTJd1mIHoOx5EN/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0249",
+    "documentNo": "GEN-HSSE-B-335-F03",
+    "documentTitle": "Diver Competency Verification form",
+    "category": "Form",
+    "subCategory": "Operational Safety & Asset Controls",
+    "documentType": "Form",
+    "procedureNo": "GEN-HSSE-B-335",
+    "procedureTitle": "Underwater Activities",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1-AfsAKC3V8km9kbVgn9Ag5oJSmtLHT42/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
+    "id": "DOC-0250",
+    "documentNo": "GEN-HSSE-B-335-F04",
+    "documentTitle": "Underwater Activity Close-Out form",
+    "category": "Form",
+    "subCategory": "Operational Safety & Asset Controls",
+    "documentType": "Form",
+    "procedureNo": "GEN-HSSE-B-335",
+    "procedureTitle": "Underwater Activities",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1UcNodzjaNySsrTQ83Bf99YGenmzlP7v4/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
   }
 ];
 
