@@ -1881,8 +1881,11 @@ select {
 
 .repo-header-actions .primary-btn:hover,
 .primary-btn:hover {
-    background: #c97f02;
+    background: #ffffff;
     transform: translateY(-1px);
+    color: var(--amber);
+    border: 1px solid var(--amber);
+    box-shadow: 0 10px 22px rgba(97, 242, 252, 0.18);
 }
 
 .repo-header-actions .primary-btn svg,
