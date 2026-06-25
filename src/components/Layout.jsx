@@ -61,7 +61,13 @@ const roles = [
   },
 ];
 
-export default function Layout({ activePage, setActivePage, children }) {
+export default function Layout({
+  activePage,
+  setActivePage,
+  children,
+  currentUser,
+  onLogout,
+}) {
   const [role, setRole] = useState(() => localStorage.getItem('ledgerRole') || 'Admin');
   const [roleOpen, setRoleOpen] = useState(false);
 
@@ -69,7 +75,12 @@ export default function Layout({ activePage, setActivePage, children }) {
 
   const items = useMemo(() => {
     const baseItems = [
-      { key: 'search', label: 'Search', icon: Search, allowed: currentRole.permissions.canSearch },
+      {
+        key: 'search',
+        label: 'Search',
+        icon: Search,
+        allowed: currentRole.permissions.canSearch,
+      },
       {
         key: 'repository',
         label: 'Document Repository',
@@ -101,6 +112,12 @@ export default function Layout({ activePage, setActivePage, children }) {
     setRoleOpen(false);
   }
 
+  function handleLogout() {
+    if (typeof onLogout === 'function') {
+      onLogout();
+    }
+  }
+
   return (
     <AccessContext.Provider
       value={{
@@ -114,7 +131,7 @@ export default function Layout({ activePage, setActivePage, children }) {
             <div className="logo-panel">
               <img
                 src={macsgLogo}
-                alt="Macsg Logo"
+                alt="MACS-G Solutions"
                 className="brand-logo"
                 width={110}
               />
@@ -123,14 +140,14 @@ export default function Layout({ activePage, setActivePage, children }) {
 
               <img
                 src={taqaLogo}
-                alt="Taqa Logo"
+                alt="TAQA Generation"
                 className="brand-logo"
                 width={110}
               />
             </div>
 
             <div className="brand-text">
-              <span className="brand-title">HSSE O&M</span>
+              <span className="brand-title">HSSE O&amp;M</span>
               <span className="brand-sub">Document Register</span>
             </div>
           </div>
@@ -142,6 +159,7 @@ export default function Layout({ activePage, setActivePage, children }) {
               return (
                 <button
                   key={item.key}
+                  type="button"
                   className={`top-nav-item ${activePage === item.key ? 'top-nav-item-active' : ''
                     }`}
                   onClick={() => setActivePage(item.key)}
@@ -194,11 +212,21 @@ export default function Layout({ activePage, setActivePage, children }) {
               </div>
 
               <div className="account-text">
-                <span className="account-name">Jonnathan</span>
+                <span className="account-name">
+                  {currentUser?.name || 'Jonnathan'}
+                </span>
                 <span className="account-role">{role}</span>
               </div>
 
-              <LogOut size={16} className="logout-icon" />
+              <button
+                type="button"
+                className="logout-btn"
+                onClick={handleLogout}
+                title="Sign out"
+                aria-label="Sign out"
+              >
+                <LogOut size={15} />
+              </button>
             </div>
           </div>
         </header>
