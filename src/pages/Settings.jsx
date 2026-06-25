@@ -328,7 +328,7 @@ export default function Settings() {
             </div>
 
             <p className="repo-modal-note">
-              This will remove <strong>{deleteUser.name}</strong> from the user list mockup.
+              This will remove <strong>{deleteUser.name}</strong> from the user list.
             </p>
 
             <div className="repo-modal-actions">

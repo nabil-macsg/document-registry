@@ -327,57 +327,75 @@ export default function Repository({ docs = [], setDocs }) {
 
       <div className="repo-table-wide clean-repo-listing">
         {rows.map((d, index) => (
-          <article className="repo-doc-row-clean repo-doc-row-polished" key={`${d.documentNo}-${index}`}>
-            <div className="repo-doc-icon">
-              <FileText size={18} />
-            </div>
+          <article
+            className="clean-doc-card search-doc-card"
+            key={`${d.documentNo}-${index}`}
+          >
+            <div className="clean-doc-main">
+              <div className="clean-doc-icon">
+                <FileText size={18} />
+              </div>
 
-            <div className="repo-doc-main">
-              <div className="repo-doc-top">
-                <div className="repo-doc-tags">
+              <div className="clean-doc-content">
+                <div className="repo-title-line">
+                  <h3>{d.documentTitle}</h3>
+
+                  <span
+                    className={`category-pill repo-title-category-pill ${d.category === 'Procedure'
+                      ? 'category-pill-procedure'
+                      : 'category-pill-form'
+                      }`}
+                  >
+                    {d.category}
+                  </span>
+                </div>
+
+                <div className="search-doc-tags-row">
                   <span className="doc-code">{d.documentNo}</span>
                   <span className="file-pill">{d.documentType}</span>
                 </div>
 
-                <span
-                  className={`category-pill ${d.category === 'Procedure' ? 'category-pill-procedure' : 'category-pill-form'
-                    }`}
-                >
-                  {d.category}
-                </span>
-              </div>
+                <div className="clean-doc-category">
+                  {d.subCategory}
+                </div>
 
-              <h3>{d.documentTitle}</h3>
-
-              <div className="repo-doc-meta repo-doc-subcategory-line">
-                <span>{d.subCategory}</span>
-              </div>
-
-              <div className="repo-doc-submeta">
-                <span>{d.owner}</span>
-                <span>·</span>
-                <span>{d.department}</span>
+                <div className="repo-doc-submeta">
+                  <span>{d.owner}</span>
+                  <span>•</span>
+                  <span>{d.department}</span>
+                </div>
               </div>
             </div>
 
             <div className="repo-doc-actions">
-              <button type="button" className="icon-action-btn" onClick={() => setSelectedDoc(d)}>
-                <Eye size={15} /> View
+              <button
+                type="button"
+                className="view-doc-btn"
+                onClick={() => setSelectedDoc(d)}
+              >
+                <Eye size={14} />
+                View
               </button>
 
               {canManage && (
-                <button type="button" className="icon-action-btn" onClick={() => openEditPane(d)}>
-                  <Edit3 size={15} /> Manage
+                <button
+                  type="button"
+                  className="view-doc-btn"
+                  onClick={() => openEditPane(d)}
+                >
+                  <Edit3 size={14} />
+                  Manage
                 </button>
               )}
 
               {canDelete && (
                 <button
                   type="button"
-                  className="icon-action-btn danger-action"
+                  className="view-doc-btn danger-btn-outline"
                   onClick={() => requestDelete(d)}
                 >
-                  <Trash2 size={15} /> Delete
+                  <Trash2 size={14} />
+                  Delete
                 </button>
               )}
             </div>
@@ -502,7 +520,7 @@ export default function Repository({ docs = [], setDocs }) {
             </div>
 
             <p className="repo-modal-note">
-              This will hide <strong>{deleteDoc.documentNo}</strong> from the repository mockup.
+              This will hide <strong>{deleteDoc.documentNo}</strong> from the repository.
             </p>
 
             <div className="repo-modal-actions">
@@ -558,7 +576,7 @@ function FileUploadField({ fileName, hasFile, onUpload, onRemove }) {
         <input type="file" onChange={onUpload} />
         <UploadCloud size={22} />
         <strong>{fileName || 'Choose document file'}</strong>
-        <small>{fileName ? 'File selected for this mockup' : 'PDF, DOCX, XLSX or image file'}</small>
+        <small>{fileName ? 'File selected for this document' : 'PDF, DOCX, XLSX or image file'}</small>
       </label>
 
       {hasFile && (
