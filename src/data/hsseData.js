@@ -1,5 +1,18 @@
 export const documents = [
   {
+    "id": "DOC-0000",
+    "documentNo": "GEN-HSSE-B-000",
+    "documentTitle": "Legal and Compliance Register and Explanatory Note",
+    "category": "Procedure",
+    "subCategory": "Legal and Compliance Register",
+    "documentType": "Standard",
+    "procedureNo": "GEN-HSSE-B-000",
+    "procedureTitle": "Legal and Compliance Register and Explanatory Note",
+    "owner": "HSSE Mgr Gen",
+    "department": "Gen HSSE",
+    "documentUrl": "https://docs.google.com/document/d/1moVDIXyzUoAsJZBT3KEF8zMckf3WSFKz/edit?usp=drive_link&ouid=105839783576670671382&rtpof=true&sd=true"
+  },
+  {
     "id": "DOC-0001",
     "documentNo": "GEN-HSSE-B-001",
     "documentTitle": "Occupational Health and Safety Policy",
